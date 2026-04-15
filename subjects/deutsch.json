@@ -1,0 +1,1998 @@
+{
+  "id": "deutsch",
+  "name": "Deutsch",
+  "description": "Vergleichsarbeit · Klasse 10",
+  "color": "#B8431E",
+  "colorSoft": "#F0D9CE",
+  "icon": "📝",
+  "version": 1,
+  "topics": [
+    {
+      "id": "komma",
+      "name": "Kommasetzung",
+      "desc": "Satzreihe & Satzgefüge · Relativ-, Adverbial-, Infinitiv-, Partizipialsätze · Apposition",
+      "color": "#B8431E",
+      "colorSoft": "#F0D9CE",
+      "merkwissen": [
+        {
+          "h": "Satzreihe (HS + HS)",
+          "items": [
+            "Komma zwischen Hauptsätzen: <span class=\"ex\">Es regnete, er ging trotzdem.</span>",
+            "Verbunden durch <b>und, oder, aber, denn, doch, sondern</b>",
+            "Ausnahme: Kein Komma nötig vor <b>„und\"</b> oder <b>„oder\"</b>"
+          ]
+        },
+        {
+          "h": "Satzgefüge (HS + NS)",
+          "items": [
+            "Komma <b>vor</b> jedem Nebensatz",
+            "Signalwörter: <span class=\"ex\">weil, dass, obwohl, wenn, als, damit, nachdem…</span>",
+            "Eingeschobener NS: in <b>zwei</b> Kommas einschließen"
+          ]
+        },
+        {
+          "h": "Relativsätze",
+          "items": [
+            "Mit Relativpronomen (<span class=\"ex\">der, die, das, welcher</span>) eingeleitet",
+            "Immer mit Kommas: <span class=\"ex\">Das Buch, das ich lese, ist toll.</span>"
+          ]
+        },
+        {
+          "h": "Infinitivgruppen (mit „zu\")",
+          "items": [
+            "Komma <b>Pflicht</b> bei: <span class=\"ex\">um, ohne, statt, anstatt, außer, als</span> + zu",
+            "Komma optional bei einfachen: <span class=\"ex\">Ich versuche(,) zu lernen.</span>"
+          ]
+        },
+        {
+          "h": "Appositionen & Aufzählungen",
+          "items": [
+            "Apposition (nähere Erklärung) in Kommas: <span class=\"ex\">Berlin, die Hauptstadt, ist groß.</span>",
+            "Aufzählung: Komma zwischen Gliedern, nicht vor <b>„und\"</b>"
+          ]
+        },
+        {
+          "h": "Wörtliche Rede",
+          "items": [
+            "Redebegleitsatz mit Kommas abtrennen",
+            "Beispiel: <span class=\"ex\">„Komm her\", sagte er, „es ist wichtig.\"</span>"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wo fehlt in folgendem Satz ein Komma?<span class=\"code\">Ich gehe einkaufen obwohl es regnet.</span>",
+          "opts": [
+            "Kein Komma nötig",
+            "Nach „einkaufen\"",
+            "Nach „obwohl\"",
+            "Nach „Ich\""
+          ],
+          "correct": 1,
+          "exp": "„obwohl\" ist eine unterordnende Konjunktion und leitet einen Nebensatz (Konzessivsatz) ein. Vor jedem Nebensatz steht ein Komma.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz ist korrekt kommasetzt?",
+          "opts": [
+            "Er sagte dass, er heute kommt.",
+            "Er sagte, dass er heute kommt.",
+            "Er sagte, dass, er heute kommt.",
+            "Er sagte dass er heute kommt."
+          ],
+          "correct": 1,
+          "exp": "Das Komma steht VOR dem Nebensatz, also vor „dass\". Die Konjunktion gehört bereits zum Nebensatz.",
+          "fill": null
+        },
+        {
+          "q": "Wie lautet die richtige Kommasetzung?<span class=\"code\">Das Auto das rot ist gehört mir.</span>",
+          "opts": [
+            "Das Auto, das rot ist, gehört mir.",
+            "Das Auto, das rot ist gehört mir.",
+            "Das Auto das rot ist, gehört mir.",
+            "Kein Komma nötig"
+          ],
+          "correct": 0,
+          "exp": "Ein eingeschobener Relativsatz („das rot ist\") wird von zwei Kommas eingeschlossen.",
+          "fill": null
+        },
+        {
+          "q": "Welche Art von Nebensatz ist das?<span class=\"code\">…weil er krank war.</span>",
+          "opts": [
+            "Finalsatz",
+            "Kausalsatz",
+            "Konditionalsatz",
+            "Konzessivsatz"
+          ],
+          "correct": 1,
+          "exp": "„weil\" gibt einen Grund an (Frageprobe: Warum?) → Kausalsatz.",
+          "fill": null
+        },
+        {
+          "q": "Muss hier ein Komma stehen?<span class=\"code\">Ich versuche pünktlich zu sein.</span>",
+          "opts": [
+            "Kein Komma nötig (einfache Infinitivgruppe)",
+            "Ich versuche, pünktlich zu sein.",
+            "Ich, versuche pünktlich zu sein.",
+            "Ich versuche pünktlich, zu sein."
+          ],
+          "correct": 0,
+          "exp": "Bei einfachen Infinitivgruppen (nur „zu + Infinitiv\" ohne einleitendes Wort) darf das Komma weggelassen werden.",
+          "fill": null
+        },
+        {
+          "q": "Setze die Kommas richtig.<span class=\"code\">Um pünktlich zu sein stand er früh auf.</span>",
+          "opts": [
+            "Um pünktlich zu sein, stand er früh auf.",
+            "Um, pünktlich zu sein, stand er früh auf.",
+            "Um pünktlich, zu sein stand er früh auf.",
+            "Kein Komma nötig"
+          ],
+          "correct": 0,
+          "exp": "Infinitivgruppen mit „um/ohne/statt/anstatt/außer/als\" MÜSSEN durch Komma abgetrennt werden.",
+          "fill": null
+        },
+        {
+          "q": "Setze die Kommas richtig.<span class=\"code\">Berlin die Hauptstadt Deutschlands ist groß.</span>",
+          "opts": [
+            "Berlin, die Hauptstadt Deutschlands, ist groß.",
+            "Berlin die Hauptstadt Deutschlands, ist groß.",
+            "Berlin, die Hauptstadt Deutschlands ist groß.",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "„die Hauptstadt Deutschlands\" ist eine Apposition und wird von Kommas eingeschlossen.",
+          "fill": null
+        },
+        {
+          "q": "Wie ist die Kommasetzung richtig?<span class=\"code\">Er isst Äpfel Birnen und Bananen.</span>",
+          "opts": [
+            "Er isst Äpfel, Birnen und Bananen.",
+            "Er isst Äpfel, Birnen, und Bananen.",
+            "Er isst, Äpfel Birnen und Bananen.",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "Bei Aufzählungen steht Komma zwischen den Gliedern, aber NICHT vor „und\" oder „oder\".",
+          "fill": null
+        },
+        {
+          "q": "Bei welchem dieser Verbinder steht KEIN Komma vor dem folgenden Satz?",
+          "opts": [
+            "weil",
+            "obwohl",
+            "und",
+            "damit"
+          ],
+          "correct": 2,
+          "exp": "„und\" ist nebenordnend und verbindet gleichrangige Teile – kein Komma nötig (Ausnahme: bei eingeschobenen Nebensätzen).",
+          "fill": null
+        },
+        {
+          "q": "Welche Satzzeichen fehlen?<span class=\"code\">Juhu ruft Micha der Unterricht fällt aus</span>",
+          "opts": [
+            "„Juhu\", ruft Micha, „der Unterricht fällt aus!\"",
+            "„Juhu!\" ruft Micha „der Unterricht fällt aus!\"",
+            "„Juhu\" ruft, Micha, der Unterricht fällt aus.",
+            "Juhu, ruft Micha, der Unterricht fällt aus."
+          ],
+          "correct": 0,
+          "exp": "Wörtliche Rede steht in Anführungszeichen. Der Redebegleitsatz zwischen der wörtlichen Rede wird mit Kommas abgetrennt.",
+          "fill": null
+        },
+        {
+          "q": "Richtig oder falsch?<span class=\"code\">„Komm her!\", sagte er leise.</span>",
+          "opts": [
+            "Richtig",
+            "Falsch — Komma fehlt vor „sagte\"",
+            "Falsch — Anführungszeichen falsch",
+            "Falsch — kein Komma zwischen wörtlicher Rede und Begleitsatz"
+          ],
+          "correct": 0,
+          "exp": "Bei wörtlicher Rede gefolgt von Redebegleitsatz: Anführungszeichen zu, Komma, dann Begleitsatz. Das Ausrufezeichen bleibt erhalten.",
+          "fill": null
+        },
+        {
+          "q": "Wo fehlt das Komma?<span class=\"code\">Wenn du willst kannst du mitkommen.</span>",
+          "opts": [
+            "Nach „willst\"",
+            "Nach „du\"",
+            "Vor „mitkommen\"",
+            "Kein Komma nötig"
+          ],
+          "correct": 0,
+          "exp": "„Wenn du willst\" ist ein Konditionalsatz (Nebensatz). Zwischen Neben- und Hauptsatz steht Komma — also nach „willst\".",
+          "fill": {
+            "prompt": "Nach welchem Wort fehlt das Komma?\n„Wenn du willst kannst du mitkommen.\"",
+            "answer": "willst",
+            "accept": [
+              "willst"
+            ],
+            "hint": "Wo endet der Nebensatz?"
+          }
+        },
+        {
+          "q": "Wo muss das Komma stehen?<span class=\"code\">Sie ging nach Hause denn es war spät.</span>",
+          "opts": [
+            "Vor „denn\"",
+            "Nach „denn\"",
+            "Vor „es\"",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "„denn\" ist eine nebenordnende Konjunktion, die zwei Hauptsätze verbindet. Vor „denn\" steht Komma.",
+          "fill": {
+            "prompt": "Vor welchem Wort steht das Komma?\n„Sie ging nach Hause denn es war spät.\"",
+            "answer": "denn",
+            "accept": [
+              "denn"
+            ],
+            "hint": "Welches Wort verbindet die Hauptsätze?"
+          }
+        },
+        {
+          "q": "Welche Kommasetzung ist richtig?<span class=\"code\">Ohne zu fragen ging er weg.</span>",
+          "opts": [
+            "Ohne zu fragen, ging er weg.",
+            "Ohne, zu fragen ging er weg.",
+            "Ohne zu fragen ging er, weg.",
+            "Kein Komma nötig"
+          ],
+          "correct": 0,
+          "exp": "Infinitivgruppen mit „ohne/um/statt/anstatt/außer/als + zu\" müssen mit Komma abgetrennt werden.",
+          "fill": null
+        },
+        {
+          "q": "Wie lautet die richtige Kommasetzung?<span class=\"code\">Ich liebe Obst vor allem Äpfel.</span>",
+          "opts": [
+            "Ich liebe Obst, vor allem Äpfel.",
+            "Ich liebe Obst vor allem, Äpfel.",
+            "Ich, liebe Obst vor allem Äpfel.",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "Nachgestellte Erläuterungen mit „vor allem, nämlich, zum Beispiel, d.h.\" werden durch Komma abgetrennt.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz ist richtig kommasetzt?",
+          "opts": [
+            "Er sagte, dass er kommt, wenn er Zeit hat.",
+            "Er sagte dass er kommt, wenn er Zeit hat.",
+            "Er sagte, dass er kommt wenn er Zeit hat.",
+            "Er sagte, dass er kommt, wenn, er Zeit hat."
+          ],
+          "correct": 0,
+          "exp": "Vor jedem Nebensatz steht ein Komma — hier zwei Nebensätze („dass...\" und „wenn...\"), also zwei Kommas.",
+          "fill": null
+        },
+        {
+          "q": "Wie ist die Kommasetzung?<span class=\"code\">Sie geht spazieren schreibt malt und liest.</span>",
+          "opts": [
+            "Sie geht spazieren, schreibt, malt und liest.",
+            "Sie geht spazieren, schreibt, malt, und liest.",
+            "Sie geht, spazieren schreibt malt und liest.",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "Aufzählung: Komma zwischen den Gliedern, aber nicht vor „und\".",
+          "fill": null
+        },
+        {
+          "q": "Muss hier ein Komma stehen?<span class=\"code\">Lachend rannte das Kind über die Wiese.</span>",
+          "opts": [
+            "Kein Komma nötig (einfache Partizipialgruppe)",
+            "Lachend, rannte das Kind über die Wiese.",
+            "Lachend rannte das Kind, über die Wiese.",
+            "Lachend rannte, das Kind über die Wiese."
+          ],
+          "correct": 0,
+          "exp": "Bei einfachen Partizipialgruppen ist das Komma optional. Pflicht wird es nur bei Bezug auf ein hinweisendes Wort („so\") oder bei nachgestellter Erläuterung.",
+          "fill": null
+        },
+        {
+          "q": "Welche Kommasetzung ist richtig?<span class=\"code\">Das Auto ein roter Sportwagen gehört meinem Onkel.</span>",
+          "opts": [
+            "Das Auto, ein roter Sportwagen, gehört meinem Onkel.",
+            "Das Auto ein roter Sportwagen, gehört meinem Onkel.",
+            "Das Auto, ein roter Sportwagen gehört meinem Onkel.",
+            "Kein Komma"
+          ],
+          "correct": 0,
+          "exp": "„ein roter Sportwagen\" ist eine Apposition (nähere Erläuterung zu „Auto\") und wird von zwei Kommas eingeschlossen.",
+          "fill": null
+        },
+        {
+          "q": "Welche Art von Nebensatz?<span class=\"code\">…als ich nach Hause kam.</span>",
+          "opts": [
+            "Kausalsatz",
+            "Konditionalsatz",
+            "Temporalsatz",
+            "Finalsatz"
+          ],
+          "correct": 2,
+          "exp": "„als\" gibt einen Zeitpunkt an (Frage: Wann?) → Temporalsatz.",
+          "fill": null
+        }
+      ]
+    },
+    {
+      "id": "gross",
+      "name": "Großschreibung",
+      "desc": "Nomen, Nominalisierungen, Denominalisierungen",
+      "color": "#7C6A3E",
+      "colorSoft": "#E8DFC5",
+      "merkwissen": [
+        {
+          "h": "Immer groß",
+          "items": [
+            "<b>Nomen & Eigennamen</b>: Haus, Berlin, Anna",
+            "<b>Nominalisierungen</b>: Verben/Adjektive als Nomen — erkennbar am Artikel: <span class=\"ex\">das Schöne, das Laufen, beim Schreiben</span>",
+            "Nach <b>Indefinitpronomen</b>: <span class=\"ex\">nichts Neues, etwas Gutes, viel Wichtiges</span>",
+            "Tageszeiten als Nomen: <span class=\"ex\">heute Abend, morgen Früh</span>"
+          ]
+        },
+        {
+          "h": "Immer klein",
+          "items": [
+            "<b>Adjektive & Adverbien</b>: das blaue Auto, morgens, heute, gestern",
+            "<b>am + Superlativ</b>: <span class=\"ex\">am besten, am schönsten, am größten</span>",
+            "<b>Denominalisierungen</b> (Nomen → Präposition): <span class=\"ex\">kraft des Gesetzes, trotz, laut</span>"
+          ]
+        },
+        {
+          "h": "Nomen-Suffixe (Tipp)",
+          "items": [
+            "Typische Endungen zeigen Nomen an: <b>-heit, -keit, -ung, -schaft, -nis, -tum</b>",
+            "z.B.: <span class=\"ex\">Freiheit, Möglichkeit, Meinung, Gemeinschaft, Geheimnis, Eigentum</span>"
+          ]
+        },
+        {
+          "tip": "<strong>Artikel-Adjektiv-Probe:</strong> Kannst du vor das Wort „der/die/das\" + ein Adjektiv setzen? → Nominalisierung → groß. Beispiel: <span class=\"ex\">(das richtige) Schreiben</span>"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie schreibt man richtig?<span class=\"code\">Sie liebt das Spannende am Spiel.</span>",
+          "opts": [
+            "das Spannende (groß)",
+            "das spannende (klein)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Nominalisiertes Adjektiv mit Artikel „das\" → wird großgeschrieben.",
+          "fill": null
+        },
+        {
+          "q": "Richtig oder falsch?<span class=\"code\">Am Besten ist Jasmin in ihrer Klasse.</span>",
+          "opts": [
+            "Richtig",
+            "Falsch – „am besten\" (klein)",
+            "Falsch – nur erster Buchstabe groß",
+            "Beides erlaubt"
+          ],
+          "correct": 1,
+          "exp": "Superlative mit „am\" werden kleingeschrieben: am besten, am schönsten. (Nicht zu verwechseln mit „das Beste\".)",
+          "fill": null
+        },
+        {
+          "q": "Groß oder klein?<span class=\"code\">Mir ist das ganz egal.</span>",
+          "opts": [
+            "egal (klein)",
+            "Egal (groß)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "„egal\" ist hier ein Adjektiv → klein. Nur wenn es nominalisiert wäre (z.B. „das Egal\") wäre es groß.",
+          "fill": null
+        },
+        {
+          "q": "Welches Wort ist eine Nominalisierung?",
+          "opts": [
+            "<span class=\"code\">Er läuft schnell.</span>",
+            "<span class=\"code\">Das Laufen macht Spaß.</span>",
+            "<span class=\"code\">Die Katze schläft.</span>",
+            "<span class=\"code\">Sie ist müde.</span>"
+          ],
+          "correct": 1,
+          "exp": "„Laufen\" ist ein nominalisiertes Verb (erkennbar am Artikel „Das\" + Großschreibung).",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz ist RICHTIG geschrieben?",
+          "opts": [
+            "Er kommt heute Abend.",
+            "Er kommt Heute abend.",
+            "Er kommt heute abend.",
+            "Er kommt Heute Abend."
+          ],
+          "correct": 0,
+          "exp": "„heute\" ist Adverb (klein), „Abend\" ist Tageszeit-Nomen (groß).",
+          "fill": {
+            "prompt": "Groß oder klein? Er kommt heute ___.",
+            "answer": "Abend",
+            "accept": [
+              "Abend"
+            ],
+            "caseSensitive": true,
+            "hint": "Tageszeit als Nomen?"
+          }
+        },
+        {
+          "q": "Groß oder klein?<span class=\"code\">Sie geht morgens joggen.</span>",
+          "opts": [
+            "morgens (klein)",
+            "Morgens (groß)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "„morgens\" ist ein Adverb (Antwort auf „wann?\") und wird kleingeschrieben. „Morgen\" als Tageszeit wäre groß.",
+          "fill": {
+            "prompt": "Groß oder klein? Sie geht ___ joggen.",
+            "answer": "morgens",
+            "accept": [
+              "morgens"
+            ],
+            "caseSensitive": true,
+            "hint": "Adverb = wann?"
+          }
+        },
+        {
+          "q": "Welches ist eine Denominalisierung (wird kleingeschrieben)?",
+          "opts": [
+            "<span class=\"code\">Die Kraft</span>",
+            "<span class=\"code\">kraft des Gesetzes</span>",
+            "<span class=\"code\">das Kraftwerk</span>",
+            "<span class=\"code\">kräftig</span>"
+          ],
+          "correct": 1,
+          "exp": "„kraft des Gesetzes\" ist eine Präposition aus einem Nomen entstanden → klein. Ebenso: „laut\", „trotz\".",
+          "fill": null
+        },
+        {
+          "q": "Wie schreibt man korrekt? <span class=\"code\">Ich esse ___ Neues.</span>",
+          "opts": [
+            "nichts Neues",
+            "nichts neues",
+            "Nichts Neues",
+            "Nichts neues"
+          ],
+          "correct": 0,
+          "exp": "Nach Indefinitpronomen wie „nichts, etwas, viel, wenig\" wird das folgende nominalisierte Adjektiv großgeschrieben.",
+          "fill": {
+            "prompt": "Groß oder klein? Ich esse nichts ___. (neu)",
+            "answer": "Neues",
+            "accept": [
+              "Neues"
+            ],
+            "caseSensitive": true,
+            "hint": "Nach Indefinitpronomen?"
+          }
+        },
+        {
+          "q": "Welches Suffix zeigt typischerweise ein Nomen an?",
+          "opts": [
+            "-heit / -keit / -ung / -schaft",
+            "-lich / -ig / -isch",
+            "-en / -st / -t",
+            "-er / -est / -ste"
+          ],
+          "correct": 0,
+          "exp": "-heit, -keit, -ung, -schaft, -nis, -tum sind typische Nomen-Suffixe. -lich/-ig/-isch sind Adjektivsuffixe.",
+          "fill": null
+        },
+        {
+          "q": "Beim ___ konzentriert er sich. Welche Schreibung ist richtig?",
+          "opts": [
+            "beim Schreiben",
+            "beim schreiben",
+            "Beim Schreiben",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Präposition + Artikel verschmolzen („beim\" = „bei dem\") → das folgende Verb wird nominalisiert und großgeschrieben.",
+          "fill": {
+            "prompt": "Groß oder klein? Beim ___ konzentriert er sich. (schreiben)",
+            "answer": "Schreiben",
+            "accept": [
+              "Schreiben"
+            ],
+            "caseSensitive": true,
+            "hint": "beim = bei dem → ?"
+          }
+        },
+        {
+          "q": "Wie schreibt man richtig?<span class=\"code\">Die Kleinen spielen im Park.</span>",
+          "opts": [
+            "Die Kleinen (groß)",
+            "Die kleinen (klein)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Nominalisiertes Adjektiv mit Artikel „Die\" → großgeschrieben (gemeint sind Kinder).",
+          "fill": null
+        },
+        {
+          "q": "Welche Schreibung ist richtig? (allgemein/Allgemeinen)",
+          "opts": [
+            "Im Allgemeinen ist das so.",
+            "Im allgemeinen ist das so.",
+            "im Allgemeinen ist das so.",
+            "im allgemeinen ist das so."
+          ],
+          "correct": 0,
+          "exp": "Präp+Artikel verschmolzen („Im\"=„In dem\") → nominalisiert → groß. Am Satzanfang außerdem immer groß.",
+          "fill": null
+        },
+        {
+          "q": "Welche Schreibung ist richtig? (Deutsch sprechen)",
+          "opts": [
+            "Ich spreche Deutsch.",
+            "Ich spreche deutsch.",
+            "Beides möglich, je nach Kontext"
+          ],
+          "correct": 2,
+          "exp": "Beides richtig: „Deutsch\" als Sprache/Nomen → groß. „deutsch\" als Adverb (z.B. „auf deutsch\") kann klein. Faustregel: Mit Artikel/Präp+Artikel → groß.",
+          "fill": null
+        },
+        {
+          "q": "Wie schreibt man richtig?<span class=\"code\">Ich arbeite ___ von 9 bis 5.</span>",
+          "opts": [
+            "nachmittags (klein)",
+            "Nachmittags (groß)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "„nachmittags\" ist ein Adverb (Frage: Wann?) → klein. „Am Nachmittag\" wäre groß (Nomen).",
+          "fill": null
+        },
+        {
+          "q": "Richtig oder falsch?<span class=\"code\">Es ist das Beste was mir passieren konnte.</span>",
+          "opts": [
+            "Richtig — „das Beste\" (groß, nominalisiertes Adjektiv)",
+            "Falsch — „das beste\" (klein)",
+            "Falsch — „Das beste\" (nur erster Buchstabe groß)",
+            "Beides erlaubt"
+          ],
+          "correct": 0,
+          "exp": "Nach Artikel „das\" + Adjektiv („bestes\") → Nominalisierung → groß. Unterschied zu „am besten\" (klein, Superlativ mit „am\").",
+          "fill": null
+        },
+        {
+          "q": "Welche Schreibung ist richtig?<span class=\"code\">Jung und ___ feiern zusammen.</span>",
+          "opts": [
+            "Alt (groß)",
+            "alt (klein)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Nominalisierte Adjektive ohne Artikel: bei festen Paaren wie „Jung und Alt\", „Arm und Reich\" → groß.",
+          "fill": null
+        },
+        {
+          "q": "Wie schreibt man richtig?<span class=\"code\">Meine Lieblingsfarbe ist ___.</span>",
+          "opts": [
+            "Rot (groß — Farbe als Nomen)",
+            "rot (klein)",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "„Rot\" ist hier ein nominalisiertes Adjektiv (die Farbe Rot) → groß. „ein rotes Auto\" wäre klein (Adjektiv).",
+          "fill": null
+        },
+        {
+          "q": "Welche Schreibung ist richtig? (vor allem)",
+          "opts": [
+            "vor allem",
+            "Vor Allem",
+            "vor Allem",
+            "Vor allem"
+          ],
+          "correct": 0,
+          "exp": "„vor allem\" ist eine feste Wendung, beide Wörter klein (es sei denn am Satzanfang).",
+          "fill": null
+        },
+        {
+          "q": "Nominalisiert oder nicht?<span class=\"code\">Er liebt ___.</span> (Verb: wandern)",
+          "opts": [
+            "das Wandern",
+            "das wandern",
+            "Das Wandern (nur bei Satzanfang)",
+            "wandern"
+          ],
+          "correct": 0,
+          "exp": "Verb + Artikel „das\" → Nominalisierung → großgeschrieben: „das Wandern\".",
+          "fill": null
+        },
+        {
+          "q": "Welche Schreibung ist richtig? (im Großen und Ganzen)",
+          "opts": [
+            "Im Großen und Ganzen",
+            "Im großen und ganzen",
+            "im großen und ganzen",
+            "im Großen und ganzen"
+          ],
+          "correct": 0,
+          "exp": "Nominalisierte Adjektive in fester Wendung: groß. Zusammen mit „Im\" (Präp+Artikel) doppelt → beide groß.",
+          "fill": null
+        }
+      ]
+    },
+    {
+      "id": "dassdas",
+      "name": "das / dass & Wortarten",
+      "desc": "Ersatzprobe · Artikel · Relativ- & Demonstrativpronomen · Konjunktion",
+      "color": "#4A6B7C",
+      "colorSoft": "#D4DFE5",
+      "merkwissen": [
+        {
+          "h": "Die Ersatzprobe",
+          "items": [
+            "Setze „welches / dieses / jenes\" ein:",
+            "Passt? → <b>„das\"</b> (nur 1 s) — Artikel oder Pronomen",
+            "Passt NICHT? → <b>„dass\"</b> (2 s) — Konjunktion"
+          ]
+        },
+        {
+          "h": "Wortarten von „das\"",
+          "items": [
+            "<b>Artikel</b>: steht vor einem Nomen — <span class=\"ex\">das Auto</span>",
+            "<b>Relativpronomen</b>: leitet Nebensatz ein, bezieht sich auf Nomen — <span class=\"ex\">Das Auto, das rot ist…</span>",
+            "<b>Demonstrativpronomen</b>: steht allein — <span class=\"ex\">Das ist toll!</span> (= dieses)"
+          ]
+        },
+        {
+          "h": "„dass\" — immer Konjunktion",
+          "items": [
+            "Leitet Nebensatz ein",
+            "Typisch nach Verben des <b>Sagens/Denkens</b>: <span class=\"ex\">sagen, meinen, glauben, hoffen, wissen, denken</span>",
+            "Beispiel: <span class=\"ex\">Ich denke, dass du Recht hast.</span>"
+          ]
+        },
+        {
+          "tip": "<strong>Merksatz:</strong> „Wenn <em>dieses/welches/jenes</em> passt, dann ist es <em>das</em> — mit einem s.\""
+        }
+      ],
+      "questions": [
+        {
+          "q": "<span class=\"code\">Ich weiß, ___ du Recht hast.</span>",
+          "opts": [
+            "dass",
+            "das",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Konjunktion „dass\" leitet einen Nebensatz nach Verben des Sagens/Denkens ein. Ersatzprobe: „welches\" passt NICHT → also „dass\".",
+          "fill": {
+            "prompt": "Ich weiß, ___ du Recht hast.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Ersatzprobe: Passt „welches\"?"
+          }
+        },
+        {
+          "q": "<span class=\"code\">Das Buch, ___ ich lese, ist spannend.</span>",
+          "opts": [
+            "dass",
+            "das",
+            "Beides möglich"
+          ],
+          "correct": 1,
+          "exp": "Relativpronomen „das\" (bezieht sich auf „Buch\"). Ersatzprobe: „welches ich lese\" passt → also „das\".",
+          "fill": {
+            "prompt": "Das Buch, ___ ich lese, ist spannend.",
+            "answer": "das",
+            "accept": [
+              "das"
+            ],
+            "hint": "Ersatzprobe: Passt „welches\"?"
+          }
+        },
+        {
+          "q": "Welche Wortart ist „das\" hier?<span class=\"code\">Das blaue Auto gehört mir.</span>",
+          "opts": [
+            "Artikel",
+            "Relativpronomen",
+            "Demonstrativpronomen",
+            "Konjunktion"
+          ],
+          "correct": 0,
+          "exp": "„das\" steht vor einem Nomen („Auto\") und begleitet es → bestimmter Artikel.",
+          "fill": null
+        },
+        {
+          "q": "Welche Wortart ist „das\" hier?<span class=\"code\">Das ist mein Haus.</span>",
+          "opts": [
+            "Artikel",
+            "Relativpronomen",
+            "Demonstrativpronomen",
+            "Konjunktion"
+          ],
+          "correct": 2,
+          "exp": "„das\" steht allein und zeigt auf etwas → Demonstrativpronomen. Ersatzprobe: „dieses ist mein Haus\" funktioniert.",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Ich hoffe, ___ du kommst.</span>",
+          "opts": [
+            "dass",
+            "das"
+          ],
+          "correct": 0,
+          "exp": "Nach „hoffen\" (Verb des Denkens) → Konjunktion „dass\". Ersatzprobe mit „welches\" geht nicht.",
+          "fill": {
+            "prompt": "Ich hoffe, ___ du kommst.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Verb des Denkens → ?"
+          }
+        },
+        {
+          "q": "Welche Strategie hilft bei „das/dass\"?",
+          "opts": [
+            "Wenn „welches/dieses/jenes\" passt → „das\" (mit einem s)",
+            "Wenn „weil\" einsetzbar ist → „das\"",
+            "Nach einem Komma immer „dass\"",
+            "Am Satzanfang immer „Das\""
+          ],
+          "correct": 0,
+          "exp": "Ersatzprobe: Kann man „das\" durch „welches\", „dieses\" oder „jenes\" ersetzen, ist es ein Pronomen/Artikel (1 s). Geht das nicht, ist es die Konjunktion „dass\".",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Sie sagte, ___ sie müde sei.</span>",
+          "opts": [
+            "dass",
+            "das"
+          ],
+          "correct": 0,
+          "exp": "„sagen\" ist ein Verb des Sagens → Konjunktion „dass\".",
+          "fill": {
+            "prompt": "Sie sagte, ___ sie müde sei.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Verb des Sagens → ?"
+          }
+        },
+        {
+          "q": "Welche Wortart?<span class=\"code\">Der Mann, der dort steht, ist mein Onkel.</span>",
+          "opts": [
+            "Artikel",
+            "Relativpronomen",
+            "Demonstrativpronomen",
+            "Konjunktion"
+          ],
+          "correct": 1,
+          "exp": "„der\" leitet einen Relativsatz ein und bezieht sich auf „Mann\" → Relativpronomen.",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Es ist schade, ___ du gehst, aber ___ ist dein Recht.</span>",
+          "opts": [
+            "dass / das",
+            "das / dass",
+            "dass / dass",
+            "das / das"
+          ],
+          "correct": 0,
+          "exp": "1. „dass\" = Konjunktion (nach „schade\"). 2. „das\" = Demonstrativpronomen (= dieses).",
+          "fill": null
+        },
+        {
+          "q": "Welche Wortart ist „dass\"?",
+          "opts": [
+            "Artikel",
+            "Relativpronomen",
+            "Konjunktion",
+            "Demonstrativpronomen"
+          ],
+          "correct": 2,
+          "exp": "„dass\" ist IMMER eine (unterordnende) Konjunktion und leitet einen Nebensatz ein.",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Ich glaube, ___ es morgen regnet.</span>",
+          "opts": [
+            "dass",
+            "das",
+            "Beides möglich"
+          ],
+          "correct": 0,
+          "exp": "Nach „glauben\" (Verb des Denkens) → Konjunktion „dass\". Ersatzprobe: „welches\" passt nicht.",
+          "fill": {
+            "prompt": "Ich glaube, ___ es morgen regnet.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Verb des Denkens → ?"
+          }
+        },
+        {
+          "q": "<span class=\"code\">Das Kleid, ___ ich gestern gekauft habe, ist blau.</span>",
+          "opts": [
+            "dass",
+            "das"
+          ],
+          "correct": 1,
+          "exp": "Relativpronomen bezogen auf „Kleid\". Ersatzprobe: „welches ich gestern gekauft habe\" passt → „das\".",
+          "fill": {
+            "prompt": "Das Kleid, ___ ich gestern gekauft habe, ist blau.",
+            "answer": "das",
+            "accept": [
+              "das"
+            ],
+            "hint": "Ersatzprobe: Passt „welches\"?"
+          }
+        },
+        {
+          "q": "<span class=\"code\">Er denkt, ___ er Recht hat, obwohl ___ falsch ist.</span>",
+          "opts": [
+            "dass / das",
+            "das / dass",
+            "dass / dass",
+            "das / das"
+          ],
+          "correct": 0,
+          "exp": "1. „dass\" — Konjunktion nach „denken\". 2. „das\" — Demonstrativpronomen (= dieses/es).",
+          "fill": null
+        },
+        {
+          "q": "Welche Wortart hat „dass\" grammatikalisch?",
+          "opts": [
+            "Relativpronomen",
+            "Artikel",
+            "Konjunktion",
+            "Adverb"
+          ],
+          "correct": 2,
+          "exp": "„dass\" ist IMMER eine unterordnende Konjunktion und leitet einen Nebensatz ein.",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Weißt du noch, ___ Lied wir gesungen haben?</span>",
+          "opts": [
+            "dass",
+            "das",
+            "Beides möglich"
+          ],
+          "correct": 1,
+          "exp": "„das\" steht hier als Artikel vor „Lied\". Ersatzprobe „welches Lied\" passt → „das\".",
+          "fill": {
+            "prompt": "Weißt du noch, ___ Lied wir gesungen haben?",
+            "answer": "das",
+            "accept": [
+              "das"
+            ],
+            "hint": "Artikel vor Nomen?"
+          }
+        },
+        {
+          "q": "Welche Wortart hat „das\" hier?<span class=\"code\">Das war wirklich schön!</span>",
+          "opts": [
+            "Artikel",
+            "Relativpronomen",
+            "Demonstrativpronomen",
+            "Konjunktion"
+          ],
+          "correct": 2,
+          "exp": "„das\" steht allein am Satzanfang und verweist auf etwas Vorheriges → Demonstrativpronomen (= dieses/es).",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Ich habe gehört, ___ du krank warst.</span>",
+          "opts": [
+            "dass",
+            "das"
+          ],
+          "correct": 0,
+          "exp": "Nach „hören\" (Verb der Wahrnehmung/des Sagens) → Konjunktion „dass\".",
+          "fill": {
+            "prompt": "Ich habe gehört, ___ du krank warst.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Verb des Sagens → ?"
+          }
+        },
+        {
+          "q": "<span class=\"code\">___ Buch, ___ auf dem Tisch liegt, ist meins.</span>",
+          "opts": [
+            "Das / das",
+            "Dass / dass",
+            "Das / dass",
+            "Dass / das"
+          ],
+          "correct": 0,
+          "exp": "1. „Das\" — Artikel vor „Buch\". 2. „das\" — Relativpronomen (Ersatz: „welches\" passt).",
+          "fill": null
+        },
+        {
+          "q": "Welche Strategie ist FALSCH?",
+          "opts": [
+            "Ersatzprobe mit „welches/dieses\" anwenden",
+            "Nach Verben des Sagens/Denkens folgt meist „dass\"",
+            "Nach einem Komma steht immer „dass\"",
+            "Bei „das\" prüfen, ob es Artikel, Relativ- oder Demonstrativpronomen ist"
+          ],
+          "correct": 2,
+          "exp": "Falsch: Nach einem Komma kann beides kommen! Beispiel: „Das Buch, das ich las...\" (Relativpronomen nach Komma).",
+          "fill": null
+        },
+        {
+          "q": "<span class=\"code\">Ich finde es schade, ___ du schon gehst.</span>",
+          "opts": [
+            "dass",
+            "das"
+          ],
+          "correct": 0,
+          "exp": "„finden\" (Verb des Denkens) + nachfolgender Nebensatz → Konjunktion „dass\".",
+          "fill": {
+            "prompt": "Ich finde es schade, ___ du schon gehst.",
+            "answer": "dass",
+            "accept": [
+              "dass"
+            ],
+            "hint": "Verb des Denkens → ?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "konjunktiv",
+      "name": "Konjunktiv & indirekte Rede",
+      "desc": "Konjunktiv I & II · würde-Form · direkte → indirekte Rede · Modus",
+      "color": "#8B4A6B",
+      "colorSoft": "#EDD8E2",
+      "merkwissen": [
+        {
+          "h": "Die vier Modi",
+          "items": [
+            "<b>Indikativ</b> — Wirklichkeit: <span class=\"ex\">Er geht.</span>",
+            "<b>Konjunktiv I</b> — indirekte Rede: <span class=\"ex\">Er gehe.</span>",
+            "<b>Konjunktiv II</b> — Irreales, Wunsch: <span class=\"ex\">Er ginge. / Er würde gehen.</span>",
+            "<b>Imperativ</b> — Befehl: <span class=\"ex\">Geh!</span>"
+          ]
+        },
+        {
+          "h": "Konjunktiv I bilden",
+          "items": [
+            "Stamm des Verbs + <b>-e, -est, -e, -en, -et, -en</b>",
+            "z.B. kommen → ich komme, du kommest, er komme",
+            "Wichtig: sein → sei / seiest / sei…"
+          ]
+        },
+        {
+          "h": "Indirekte Rede — 4 Schritte",
+          "items": [
+            "1. Verb in <b>Konjunktiv I</b>",
+            "2. Pronomen wechseln: <span class=\"ex\">ich → er/sie</span>",
+            "3. Zeit-/Ortsangaben anpassen: <span class=\"ex\">heute → am selben Tag, morgen → am nächsten Tag, hier → dort</span>",
+            "4. Falls Konj I = Indikativ → auf <b>Konj II</b> oder <b>„würde\"-Form</b> ausweichen"
+          ]
+        },
+        {
+          "h": "Beispiel",
+          "items": [
+            "<span class=\"ex\">Direkt: „Ich komme morgen.\"</span>",
+            "<span class=\"ex\">Indirekt: Er sagt, er komme am nächsten Tag.</span>"
+          ]
+        },
+        {
+          "tip": "<strong>Konjunktiv II:</strong> wird aus dem Präteritum gebildet, mit Umlaut (a→ä, o→ö, u→ü). <span class=\"ex\">sah → sähe, ging → ginge, war → wäre</span>"
+        }
+      ],
+      "questions": [
+        {
+          "q": "In welchem Modus steht der Satz?<span class=\"code\">Ich könnte wegfliegen.</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 2,
+          "exp": "„könnte\" = Konjunktiv II (Möglichkeitsform für Irreales/Hypothetisches).",
+          "fill": null
+        },
+        {
+          "q": "In welchem Modus steht?<span class=\"code\">Er sei müde.</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 1,
+          "exp": "„sei\" ist Konjunktiv I, typisch für indirekte Rede.",
+          "fill": null
+        },
+        {
+          "q": "Wandle in indirekte Rede um:<span class=\"code\">Sie sagt: „Ich bin müde.\"</span>",
+          "opts": [
+            "Sie sagt, sie sei müde.",
+            "Sie sagt, sie ist müde.",
+            "Sie sagt, sie war müde.",
+            "Sie sagt, sie wäre müde."
+          ],
+          "correct": 0,
+          "exp": "Indirekte Rede: Konjunktiv I („sei\"). Pronomen wechselt von „ich\" → „sie\" (3. Person).",
+          "fill": {
+            "prompt": "Sie sagt: „Ich bin müde.\"\nSie sagt, sie ___ müde.",
+            "answer": "sei",
+            "accept": [
+              "sei"
+            ],
+            "hint": "Konjunktiv I von „sein\"?"
+          }
+        },
+        {
+          "q": "In welchem Modus steht?<span class=\"code\">Mach die Tür zu!</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 3,
+          "exp": "Aufforderung/Befehl → Imperativ.",
+          "fill": null
+        },
+        {
+          "q": "Wann verwendet man die „würde\"-Ersatzform?",
+          "opts": [
+            "Wenn der Konjunktiv II gleich klingt wie der Indikativ Präteritum",
+            "Immer, wenn man höflich sein will",
+            "Nur in direkter Rede",
+            "Bei allen Verben ohne Ausnahme"
+          ],
+          "correct": 0,
+          "exp": "Die „würde\"-Ersatzform kommt zum Einsatz, wenn die Konjunktiv-II-Form nicht von der Indikativ-Präteritumsform unterscheidbar ist (z.B. „sie machten\").",
+          "fill": null
+        },
+        {
+          "q": "Wandle um:<span class=\"code\">Er sagt: „Ich komme morgen.\"</span>",
+          "opts": [
+            "Er sagt, er komme am nächsten Tag.",
+            "Er sagt, dass er morgen kommt.",
+            "Er sagt, ich komme morgen.",
+            "Er sagt, er kommt morgen."
+          ],
+          "correct": 0,
+          "exp": "Konjunktiv I („komme\"), Pronomenwechsel („ich\" → „er\") UND Zeitangabe („morgen\" → „am nächsten Tag\").",
+          "fill": {
+            "prompt": "Er sagt: „Ich komme morgen.\"\nEr sagt, er ___ am nächsten Tag.",
+            "answer": "komme",
+            "accept": [
+              "komme"
+            ],
+            "hint": "Konjunktiv I von „kommen\"?"
+          }
+        },
+        {
+          "q": "Welches ist der Konjunktiv II von „sehen\"?",
+          "opts": [
+            "er sieht",
+            "er sah",
+            "er sähe",
+            "er sehe"
+          ],
+          "correct": 2,
+          "exp": "Konjunktiv II wird aus Präteritum mit Umlaut gebildet: „sah\" → „sähe\". „sehe\" wäre Konjunktiv I.",
+          "fill": {
+            "prompt": "Konjunktiv II von „sehen\" (er): er ___",
+            "answer": "sähe",
+            "accept": [
+              "sähe"
+            ],
+            "hint": "Präteritum „sah\" + Umlaut?"
+          }
+        },
+        {
+          "q": "Wozu dient der Konjunktiv I?",
+          "opts": [
+            "Für Wünsche und Irreales",
+            "Für Aufforderungen",
+            "Für die indirekte Rede / Redewiedergabe",
+            "Für Tatsachen in der Gegenwart"
+          ],
+          "correct": 2,
+          "exp": "Konjunktiv I signalisiert: „Das ist nicht meine Aussage, sondern die einer anderen Person\" → indirekte Rede.",
+          "fill": null
+        },
+        {
+          "q": "In welchem Modus?<span class=\"code\">Wir sind keine Hexen.</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 0,
+          "exp": "„sind\" = Tatsache, Wirklichkeitsform → Indikativ.",
+          "fill": null
+        },
+        {
+          "q": "Wandle um in indirekte Rede:<span class=\"code\">„Belastbare Zahlen gibt es nicht, aber die Zahl der Nutzer steigt.\"</span>",
+          "opts": [
+            "Er sagt, belastbare Zahlen gebe es nicht, aber die Zahl der Nutzer steige.",
+            "Er sagt, belastbare Zahlen gab es nicht, aber die Zahl steigt.",
+            "Er sagt, belastbare Zahlen gibt es nicht, aber die Zahl der Nutzer steigt.",
+            "Er sagt, belastbare Zahlen hätten nicht gegeben, aber die Zahl würde steigen."
+          ],
+          "correct": 0,
+          "exp": "Beide Verben im Konjunktiv I: „gibt\" → „gebe\", „steigt\" → „steige\".",
+          "fill": null
+        },
+        {
+          "q": "Was ist der Konjunktiv I von „haben\" (er)?",
+          "opts": [
+            "er hat",
+            "er hatte",
+            "er habe",
+            "er hätte"
+          ],
+          "correct": 2,
+          "exp": "Konjunktiv I: Stamm (hab-) + -e → „habe\". „hätte\" wäre Konjunktiv II, „hat\" Indikativ, „hatte\" Präteritum.",
+          "fill": {
+            "prompt": "Konjunktiv I von „haben\" (er): er ___",
+            "answer": "habe",
+            "accept": [
+              "habe"
+            ],
+            "hint": "Stamm + -e?"
+          }
+        },
+        {
+          "q": "Was ist der Konjunktiv II von „sein\" (ich)?",
+          "opts": [
+            "ich bin",
+            "ich war",
+            "ich sei",
+            "ich wäre"
+          ],
+          "correct": 3,
+          "exp": "Konjunktiv II von „sein\" → „wäre\". „sei\" wäre Konjunktiv I, „bin\" Indikativ, „war\" Präteritum.",
+          "fill": {
+            "prompt": "Konjunktiv II von „sein\" (ich): ich ___",
+            "answer": "wäre",
+            "accept": [
+              "wäre"
+            ],
+            "hint": "Präteritum „war\" + Umlaut?"
+          }
+        },
+        {
+          "q": "In welchem Modus?<span class=\"code\">Ich wünschte, ich hätte mehr Zeit.</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 2,
+          "exp": "„hätte\" = Konjunktiv II (irrealer Wunsch). „wünschte\" ebenfalls Konjunktiv II.",
+          "fill": null
+        },
+        {
+          "q": "Wandle in indirekte Rede um:<span class=\"code\">Sie sagt: „Ich gehe heute ins Kino.\"</span>",
+          "opts": [
+            "Sie sagt, sie gehe an jenem Tag ins Kino.",
+            "Sie sagt, dass sie heute ins Kino geht.",
+            "Sie sagt, ich gehe heute ins Kino.",
+            "Sie sagt, sie ging heute ins Kino."
+          ],
+          "correct": 0,
+          "exp": "Konjunktiv I („gehe\"), Pronomenwechsel („ich\" → „sie\"), Zeitangabe („heute\" → „an jenem Tag\").",
+          "fill": null
+        },
+        {
+          "q": "Warum verwendet man in indirekter Rede oft den Konjunktiv II statt Konjunktiv I?",
+          "opts": [
+            "Konj II klingt höflicher",
+            "Wenn Konj I sich nicht vom Indikativ unterscheidet",
+            "Konj II ist in der Schriftsprache üblicher",
+            "Nur bei sein und haben"
+          ],
+          "correct": 1,
+          "exp": "Ausweichstrategie: Wenn Konj I gleich klingt wie Indikativ (z.B. „sie kommen\" / „sie kommen\"), weicht man auf Konj II oder würde-Form aus, damit erkennbar bleibt, dass es indirekte Rede ist.",
+          "fill": null
+        },
+        {
+          "q": "Welche Form ist Konjunktiv I von „kommen\" (du)?",
+          "opts": [
+            "du kommst",
+            "du komme",
+            "du kommest",
+            "du kämest"
+          ],
+          "correct": 2,
+          "exp": "Konj I: Stamm (komm-) + Personalendung. 2. Person Singular → „-est\": du kommest.",
+          "fill": null
+        },
+        {
+          "q": "In welchem Modus?<span class=\"code\">Könntest du mir bitte helfen?</span>",
+          "opts": [
+            "Indikativ",
+            "Konjunktiv I",
+            "Konjunktiv II",
+            "Imperativ"
+          ],
+          "correct": 2,
+          "exp": "Höfliche Bitte → Konjunktiv II („könntest\"). Sehr typisch für höfliche Fragen.",
+          "fill": null
+        },
+        {
+          "q": "Wandle um in indirekte Rede:<span class=\"code\">Er fragt: „Hast du Zeit?\"</span>",
+          "opts": [
+            "Er fragt, ob ich Zeit habe.",
+            "Er fragt, hast du Zeit.",
+            "Er fragt, ob ich Zeit hätte.",
+            "Sowohl A als auch C sind richtig"
+          ],
+          "correct": 3,
+          "exp": "Indirekte Fragen werden mit „ob\" eingeleitet. Konj I „habe\" ist hier identisch mit Indikativ → Konj II „hätte\" als Ausweichform möglich. Beide korrekt.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz drückt etwas Irreales aus?",
+          "opts": [
+            "Er kommt morgen.",
+            "Er kam gestern.",
+            "Wenn er käme, wäre ich glücklich.",
+            "Er sagt, er komme."
+          ],
+          "correct": 2,
+          "exp": "Konjunktiv II („käme\", „wäre\") drückt Irreales/Hypothetisches aus.",
+          "fill": null
+        },
+        {
+          "q": "Wandle um:<span class=\"code\">Sie sagt: „Ich muss nach Hause.\"</span>",
+          "opts": [
+            "Sie sagt, sie müsse nach Hause.",
+            "Sie sagt, sie muss nach Hause.",
+            "Sie sagt, sie müsste nach Hause.",
+            "Sie sagt, ich muss nach Hause."
+          ],
+          "correct": 0,
+          "exp": "Konj I von „müssen\" (3. Ps. Sg.): „müsse\". Pronomenwechsel „ich\" → „sie\".",
+          "fill": null
+        }
+      ]
+    },
+    {
+      "id": "parahypo",
+      "name": "Parataxe & Hypotaxe",
+      "desc": "Satzreihe vs. Satzgefüge erkennen",
+      "color": "#2D5A4A",
+      "colorSoft": "#CFDFD6",
+      "merkwissen": [
+        {
+          "h": "Parataxe (Satzreihe)",
+          "items": [
+            "Mehrere <b>gleichrangige Hauptsätze</b>",
+            "Verbunden durch nebenordnende Konjunktionen: <span class=\"ex\">und, oder, aber, denn, doch, sondern</span>",
+            "Finites Verb in jedem HS: an <b>2. Stelle</b>",
+            "Beispiel: <span class=\"ex\">Es regnete, doch wir gingen spazieren.</span>"
+          ]
+        },
+        {
+          "h": "Hypotaxe (Satzgefüge)",
+          "items": [
+            "<b>Hauptsatz + untergeordnete(r) Nebensatz/Nebensätze</b>",
+            "Unterordnende Konjunktionen: <span class=\"ex\">weil, dass, wenn, obwohl, als, damit, nachdem, falls…</span>",
+            "Auch Relativsätze: der, die, das, welcher",
+            "Finites Verb im Nebensatz: <b>am Ende</b>",
+            "Beispiel: <span class=\"ex\">Wir gingen spazieren, obwohl es regnete.</span>"
+          ]
+        },
+        {
+          "tip": "<strong>Schnelltest:</strong> Steht das Verb im Nebensatz am Ende? → Hypotaxe. Sind es zwei gleichwertige HS (z.B. mit „und\", „aber\")? → Parataxe."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Was ist eine Parataxe?",
+          "opts": [
+            "Ein Hauptsatz mit Nebensatz",
+            "Mehrere aneinandergereihte Hauptsätze",
+            "Ein einzelner Nebensatz",
+            "Ein Satz mit Apposition"
+          ],
+          "correct": 1,
+          "exp": "Parataxe = Satzreihe: mehrere gleichrangige Hauptsätze, verbunden durch Komma oder nebenordnende Konjunktion (und, oder, aber, denn).",
+          "fill": null
+        },
+        {
+          "q": "Was ist eine Hypotaxe?",
+          "opts": [
+            "Mehrere Hauptsätze",
+            "Ein Hauptsatz mit einem oder mehreren untergeordneten Nebensätzen",
+            "Ein Satz ohne Verb",
+            "Zwei Nebensätze"
+          ],
+          "correct": 1,
+          "exp": "Hypotaxe = Satzgefüge: Hauptsatz + untergeordnete(r) Nebensatz/Nebensätze.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Offline ist ein Zustand, der sich nur ergibt, wenn keiner da ist.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 1,
+          "exp": "Hauptsatz mit Relativsatz („der…\") und Konditionalsatz („wenn…\") → Hypotaxe.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Man möchte nur kurz die Uhrzeit checken, doch automatisch öffnet sich Twitter.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 0,
+          "exp": "Zwei Hauptsätze mit „doch\" verbunden (nebenordnende Konjunktion) → Parataxe.",
+          "fill": null
+        },
+        {
+          "q": "Welche Aussage zur Hypotaxe ist RICHTIG?",
+          "opts": [
+            "In allen Teilsätzen steht das finite Verb an zweiter Stelle.",
+            "Nebensätze werden einem Hauptsatz untergeordnet.",
+            "Es werden nur Hauptsätze aneinandergereiht.",
+            "Sie enthält keine Kommas."
+          ],
+          "correct": 1,
+          "exp": "In der Hypotaxe wird mindestens ein Nebensatz einem Hauptsatz untergeordnet.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Die Lösung, die in den Büchern präsentiert wird, heißt Digital Detox.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 1,
+          "exp": "Hauptsatz mit eingeschobenem Relativsatz („die…wird\") → Hypotaxe.",
+          "fill": null
+        },
+        {
+          "q": "Welche Konjunktion leitet einen Nebensatz ein (macht Hypotaxe)?",
+          "opts": [
+            "und",
+            "aber",
+            "denn",
+            "weil"
+          ],
+          "correct": 3,
+          "exp": "„weil\" ist unterordnend → Nebensatz → Hypotaxe. Die anderen sind nebenordnend → Parataxe.",
+          "fill": null
+        },
+        {
+          "q": "Im Nebensatz steht das finite Verb…",
+          "opts": [
+            "an erster Stelle",
+            "an zweiter Stelle",
+            "am Ende",
+            "beliebig"
+          ],
+          "correct": 2,
+          "exp": "Im Nebensatz steht das konjugierte Verb am ENDE – wichtiges Erkennungsmerkmal („…weil er krank ist.\").",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Es regnete, aber wir gingen spazieren.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 0,
+          "exp": "Zwei Hauptsätze mit nebenordnender Konjunktion „aber\" verbunden → Parataxe.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Ich kam, ich sah, ich siegte.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 0,
+          "exp": "Drei gleichrangige Hauptsätze, nur durch Kommas verbunden → Parataxe.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Er hat versprochen, dass er kommt, wenn er Zeit hat.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 1,
+          "exp": "Ein HS mit zwei untergeordneten NS („dass...\" und „wenn...\") → Hypotaxe.",
+          "fill": null
+        },
+        {
+          "q": "Welche Konjunktion ist NEBENORDNEND (macht Parataxe)?",
+          "opts": [
+            "obwohl",
+            "weil",
+            "aber",
+            "damit"
+          ],
+          "correct": 2,
+          "exp": "Nebenordnende Konjunktionen: und, oder, aber, denn, doch, sondern. Die anderen sind unterordnend → Nebensätze → Hypotaxe.",
+          "fill": null
+        },
+        {
+          "q": "Wo steht das finite Verb im HAUPTSATZ?",
+          "opts": [
+            "an 1. Stelle",
+            "an 2. Stelle",
+            "am Ende",
+            "beliebig"
+          ],
+          "correct": 1,
+          "exp": "Im deutschen Hauptsatz steht das finite (konjugierte) Verb an 2. Stelle. Im Nebensatz am Ende.",
+          "fill": null
+        },
+        {
+          "q": "Parataxe oder Hypotaxe?<span class=\"code\">Wir blieben zu Hause, weil es regnete.</span>",
+          "opts": [
+            "Parataxe",
+            "Hypotaxe",
+            "Weder noch"
+          ],
+          "correct": 1,
+          "exp": "HS + NS mit unterordnender Konjunktion „weil\" → Hypotaxe. Finites Verb „regnete\" steht am Ende des NS.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz enthält einen Relativsatz (und ist somit eine Hypotaxe)?",
+          "opts": [
+            "Ich gehe einkaufen, und du kommst mit.",
+            "Das Buch, das ich lese, ist spannend.",
+            "Er arbeitet viel, aber verdient wenig.",
+            "Sie kocht, sie singt, sie tanzt."
+          ],
+          "correct": 1,
+          "exp": "Relativsatz mit „das\" (bezieht sich auf „Buch\") → untergeordneter Nebensatz → Hypotaxe. Die anderen sind Parataxen.",
+          "fill": null
+        },
+        {
+          "q": "Was ist das Hauptmerkmal einer Hypotaxe?",
+          "opts": [
+            "Alle Sätze sind gleichrangig",
+            "Ein Hauptsatz dominiert, Nebensätze sind ihm untergeordnet",
+            "Es gibt kein Verb",
+            "Sie hat nur ein Wort"
+          ],
+          "correct": 1,
+          "exp": "Hypotaxe = hierarchische Struktur: Ein Hauptsatz ist zentral, ein oder mehrere Nebensätze werden ihm untergeordnet.",
+          "fill": null
+        }
+      ]
+    },
+    {
+      "id": "aktivpassiv",
+      "name": "Aktiv / Passiv",
+      "desc": "Umformungen zwischen Aktiv und Passiv",
+      "color": "#B58B3E",
+      "colorSoft": "#F0E3C8",
+      "merkwissen": [
+        {
+          "h": "Bildung des Passivs",
+          "items": [
+            "Formel: <b>werden</b> (konjugiert) + <b>Partizip II</b>",
+            "Präsens: <span class=\"ex\">wird gegessen</span>",
+            "Präteritum: <span class=\"ex\">wurde gegessen</span>",
+            "Perfekt: <span class=\"ex\">ist gegessen worden</span>",
+            "Futur I: <span class=\"ex\">wird gegessen werden</span>"
+          ]
+        },
+        {
+          "h": "Aktiv → Passiv (3 Schritte)",
+          "items": [
+            "1. <b>Akkusativobjekt</b> wird zum <b>Subjekt</b>",
+            "2. Das alte Subjekt wird zu <b>„von + Dativ\"</b> (optional)",
+            "3. Verb in die passende <b>Passiv-Zeitform</b>",
+            "Beispiel: <span class=\"ex\">Tom isst den Apfel. → Der Apfel wird (von Tom) gegessen.</span>"
+          ]
+        },
+        {
+          "h": "Wann Passiv?",
+          "items": [
+            "Wenn der <b>Handelnde unwichtig</b> oder unbekannt ist",
+            "Wenn der Fokus auf dem <b>Geschehen</b> liegt, nicht auf dem Täter",
+            "Häufig in Nachrichten, Wissenschaft, Verwaltung"
+          ]
+        },
+        {
+          "tip": "<strong>Achtung:</strong> Nur Verben mit Akkusativobjekt können ins Passiv. <span class=\"ex\">Er hilft mir</span> → nicht passivfähig (Dativ)."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Wie wird das Passiv gebildet?",
+          "opts": [
+            "sein + Infinitiv",
+            "werden + Partizip II",
+            "haben + Partizip II",
+            "werden + Infinitiv"
+          ],
+          "correct": 1,
+          "exp": "Passiv = Form von „werden\" + Partizip II, z.B. „wird gegessen\", „wurde gemacht\".",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Passiv:<span class=\"code\">Tom isst den Apfel.</span>",
+          "opts": [
+            "Der Apfel wird von Tom gegessen.",
+            "Der Apfel ist von Tom gegessen.",
+            "Tom wird den Apfel essen.",
+            "Der Apfel hat Tom gegessen."
+          ],
+          "correct": 0,
+          "exp": "Akkusativobjekt („den Apfel\") wird zum Subjekt, das ursprüngliche Subjekt wird zum „von\"-Zusatz.",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Aktiv:<span class=\"code\">Das Licht wird vom Gerüst reflektiert.</span>",
+          "opts": [
+            "Das Gerüst reflektiert das Licht.",
+            "Das Licht reflektiert das Gerüst.",
+            "Das Gerüst wird vom Licht reflektiert.",
+            "Vom Gerüst wird das Licht reflektieren."
+          ],
+          "correct": 0,
+          "exp": "Der „von\"-Agens („vom Gerüst\") wird Subjekt, das Passiv-Subjekt („das Licht\") wird Akkusativobjekt.",
+          "fill": null
+        },
+        {
+          "q": "Welche Zeitform hat dieses Passiv?<span class=\"code\">Das Haus wurde gebaut.</span>",
+          "opts": [
+            "Präsens Passiv",
+            "Präteritum Passiv",
+            "Perfekt Passiv",
+            "Futur Passiv"
+          ],
+          "correct": 1,
+          "exp": "„wurde\" = Präteritum von „werden\" + Partizip II → Präteritum Passiv.",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Passiv:<span class=\"code\">Die Forscher schicken Roboter zum Mars.</span>",
+          "opts": [
+            "Roboter werden von den Forschern zum Mars geschickt.",
+            "Roboter sind von den Forschern zum Mars geschickt.",
+            "Die Forscher werden Roboter zum Mars schicken.",
+            "Roboter werden zum Mars von den Forschern."
+          ],
+          "correct": 0,
+          "exp": "Präsens Passiv: „werden\" + „geschickt\" (Partizip II).",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Aktiv:<span class=\"code\">Das Experiment ist von Forschern organisiert worden.</span>",
+          "opts": [
+            "Forscher haben das Experiment organisiert.",
+            "Forscher organisieren das Experiment.",
+            "Das Experiment organisiert die Forscher.",
+            "Das Experiment wurde von Forschern organisiert."
+          ],
+          "correct": 0,
+          "exp": "„ist…worden\" = Perfekt Passiv → Aktiv im Perfekt: „haben organisiert\".",
+          "fill": null
+        },
+        {
+          "q": "Warum verwendet man Passiv?",
+          "opts": [
+            "Wenn der Handelnde unwichtig oder unbekannt ist",
+            "Um den Satz kürzer zu machen",
+            "Nur in der gesprochenen Sprache",
+            "Wenn es keine Zeit gibt"
+          ],
+          "correct": 0,
+          "exp": "Passiv lenkt den Fokus auf das GESCHEHEN – oft wenn der Täter unwichtig oder unbekannt ist.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz ist im Aktiv?",
+          "opts": [
+            "Der Ball wird vom Kind getreten.",
+            "Das Buch wurde gelesen.",
+            "Die Lehrerin erklärt die Aufgabe.",
+            "Das Essen ist zubereitet worden."
+          ],
+          "correct": 2,
+          "exp": "Aktiv: Subjekt handelt („Die Lehrerin erklärt…\"). Die anderen sind Passiv-Formen.",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Passiv (Perfekt):<span class=\"code\">Der Schüler hat die Aufgabe gelöst.</span>",
+          "opts": [
+            "Die Aufgabe ist (vom Schüler) gelöst worden.",
+            "Die Aufgabe wurde (vom Schüler) gelöst.",
+            "Die Aufgabe wird (vom Schüler) gelöst.",
+            "Die Aufgabe hat (vom Schüler) gelöst."
+          ],
+          "correct": 0,
+          "exp": "Perfekt Passiv: „sein\" + Partizip II + „worden\" → „ist gelöst worden\".",
+          "fill": null
+        },
+        {
+          "q": "Welche Zeitform hat dieses Passiv?<span class=\"code\">Das Essen wird zubereitet werden.</span>",
+          "opts": [
+            "Präsens Passiv",
+            "Präteritum Passiv",
+            "Perfekt Passiv",
+            "Futur Passiv"
+          ],
+          "correct": 3,
+          "exp": "„wird ... werden\" + Partizip II → Futur I Passiv.",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Passiv:<span class=\"code\">Man muss die Fenster schließen.</span>",
+          "opts": [
+            "Die Fenster müssen geschlossen werden.",
+            "Die Fenster werden geschlossen.",
+            "Die Fenster sind geschlossen.",
+            "Die Fenster müssen schließen."
+          ],
+          "correct": 0,
+          "exp": "Passiv mit Modalverb: Modalverb + Infinitiv Passiv („geschlossen werden\"). „man\" fällt weg.",
+          "fill": null
+        },
+        {
+          "q": "Welcher Satz ist ZUSTANDSPASSIV (sein-Passiv)?",
+          "opts": [
+            "Die Tür wird geschlossen.",
+            "Die Tür ist geschlossen.",
+            "Die Tür wurde geschlossen.",
+            "Die Tür ist geschlossen worden."
+          ],
+          "correct": 1,
+          "exp": "„sein\" + Partizip II = Zustandspassiv (Ergebnis/Zustand). „werden\" + Part II = Vorgangspassiv (Prozess/Vorgang).",
+          "fill": null
+        },
+        {
+          "q": "Welches Verb ist NICHT passivfähig?",
+          "opts": [
+            "essen",
+            "lesen",
+            "helfen",
+            "bauen"
+          ],
+          "correct": 2,
+          "exp": "„helfen\" hat kein Akkusativ-, sondern ein Dativobjekt („jemandem helfen\"). Nur Verben mit Akkusativ-Objekt lassen sich voll passivieren.",
+          "fill": null
+        },
+        {
+          "q": "Wandle ins Aktiv:<span class=\"code\">Die Briefe werden von der Post zugestellt.</span>",
+          "opts": [
+            "Die Post stellt die Briefe zu.",
+            "Die Briefe stellen die Post zu.",
+            "Die Post wird die Briefe zustellen.",
+            "Die Briefe wurden von der Post zugestellt."
+          ],
+          "correct": 0,
+          "exp": "„von der Post\" (Agens) → Subjekt. „Die Briefe\" → Akk-Objekt. Präsens Aktiv.",
+          "fill": null
+        },
+        {
+          "q": "Welche Zeitform hat:<span class=\"code\">Das Haus ist gebaut worden.</span>",
+          "opts": [
+            "Präsens Passiv",
+            "Präteritum Passiv",
+            "Perfekt Passiv",
+            "Plusquamperfekt Passiv"
+          ],
+          "correct": 2,
+          "exp": "„ist...worden\" → Perfekt Passiv. Bildung: „sein\" (Präsens) + Partizip II + „worden\".",
+          "fill": null
+        },
+        {
+          "q": "„von\" oder „durch\"?<span class=\"code\">Das Fenster wurde ___ dem Sturm zerbrochen.</span>",
+          "opts": [
+            "von",
+            "durch",
+            "Beides möglich"
+          ],
+          "correct": 1,
+          "exp": "„durch\" bei unpersönlicher Ursache/Mittel (Sturm, Kälte, Zufall). „von\" bei handelnder Person/Instanz. Hier ist der Sturm die Ursache → „durch\".",
+          "fill": null
+        }
+      ]
+    },
+    {
+      "id": "stilmittel",
+      "name": "Stilmittel",
+      "desc": "Sprachliche Mittel erkennen und benennen",
+      "color": "#5B3B8C",
+      "colorSoft": "#DDD3EB",
+      "merkwissen": [
+        {
+          "h": "Sprachliche Bilder",
+          "items": [
+            "<b>Vergleich</b> — mit „wie\" oder „als ob\": <span class=\"ex\">schnell wie ein Pfeil</span>",
+            "<b>Metapher</b> — bildlich ohne „wie\": <span class=\"ex\">das Meer des Lebens</span>",
+            "<b>Personifikation</b> — Sache bekommt menschliche Eigenschaft: <span class=\"ex\">die Sonne lacht</span>"
+          ]
+        },
+        {
+          "h": "Satzbau & Klang",
+          "items": [
+            "<b>Anapher</b> — Wiederholung am Satzanfang: <span class=\"ex\">Er schaut… Er schaut…</span>",
+            "<b>Parallelismus</b> — gleicher Satzbau: <span class=\"ex\">Das Schifflein fliegt, der Webstuhl kracht.</span>",
+            "<b>Alliteration</b> — gleicher Anfangslaut: <span class=\"ex\">Milch macht müde Männer munter.</span>",
+            "<b>Rhetorische Frage</b> — erwartet keine Antwort: <span class=\"ex\">Ist das dein Ernst?</span>"
+          ]
+        },
+        {
+          "h": "Wortwahl",
+          "items": [
+            "<b>Hyperbel</b> — Übertreibung: <span class=\"ex\">tausend Mal gesagt</span>",
+            "<b>Ironie</b> — Gegenteil gemeint: <span class=\"ex\">„Großartig!\"</span> (bei was Schlechtem)",
+            "<b>Neologismus</b> — Wortneuschöpfung: <span class=\"ex\">Lebenssturmträume</span>",
+            "<b>Interjektion</b> — Gefühlsausruf: <span class=\"ex\">ach!, oh!</span>"
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Die Sonne lacht.</span>",
+          "opts": [
+            "Metapher",
+            "Vergleich",
+            "Personifikation",
+            "Hyperbel"
+          ],
+          "correct": 2,
+          "exp": "Einer Sache (Sonne) werden menschliche Eigenschaften (lachen) zugeschrieben → Personifikation.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Schnell wie ein Pfeil.</span>",
+          "opts": [
+            "Metapher",
+            "Vergleich",
+            "Personifikation",
+            "Alliteration"
+          ],
+          "correct": 1,
+          "exp": "Durch „wie\" werden zwei Dinge verglichen → Vergleich.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Das Meer des Lebens.</span>",
+          "opts": [
+            "Vergleich",
+            "Metapher",
+            "Ironie",
+            "Anapher"
+          ],
+          "correct": 1,
+          "exp": "Bildliche Übertragung ohne „wie\" – das Leben wird als Meer dargestellt → Metapher.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Milch macht müde Männer munter.</span>",
+          "opts": [
+            "Anapher",
+            "Alliteration",
+            "Parallelismus",
+            "Personifikation"
+          ],
+          "correct": 1,
+          "exp": "Wiederholung des Anfangslauts „m\" → Alliteration.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Er schaut nicht auf die Felsenriffe. Er schaut nur hinauf.</span>",
+          "opts": [
+            "Anapher",
+            "Alliteration",
+            "Hyperbel",
+            "Rhetorische Frage"
+          ],
+          "correct": 0,
+          "exp": "Wiederholung des Satzanfangs („Er schaut\") → Anapher.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Ist das dein Ernst?</span> (Es ist offensichtlich sein Ernst.)",
+          "opts": [
+            "Metapher",
+            "Rhetorische Frage",
+            "Ironie",
+            "Hyperbel"
+          ],
+          "correct": 1,
+          "exp": "Eine Frage, auf die keine Antwort erwartet wird → Rhetorische Frage.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Ich habe dir das schon tausend Mal gesagt!</span>",
+          "opts": [
+            "Metapher",
+            "Personifikation",
+            "Hyperbel",
+            "Vergleich"
+          ],
+          "correct": 2,
+          "exp": "Starke Übertreibung („tausend Mal\") → Hyperbel.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel? „Großartig!\" (wenn etwas Schlechtes passiert ist)",
+          "opts": [
+            "Metapher",
+            "Ironie",
+            "Vergleich",
+            "Personifikation"
+          ],
+          "correct": 1,
+          "exp": "Das Gegenteil des Gemeinten wird gesagt → Ironie. (Im Text „Der große Sommer\" findet Friedrich die Entscheidung seiner Mutter NICHT „großartig\".)",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Das Schifflein fliegt, der Webstuhl kracht.</span>",
+          "opts": [
+            "Parallelismus",
+            "Anapher",
+            "Alliteration",
+            "Neologismus"
+          ],
+          "correct": 0,
+          "exp": "Gleicher Satzbau in beiden Teilen (Subjekt-Prädikat, Subjekt-Prädikat) → Parallelismus.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Lebenssturmträume</span>",
+          "opts": [
+            "Metapher",
+            "Neologismus",
+            "Alliteration",
+            "Personifikation"
+          ],
+          "correct": 1,
+          "exp": "Eine Wortneuschöpfung (kein existierendes Wort) → Neologismus.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Der Tag erwacht.</span>",
+          "opts": [
+            "Metapher",
+            "Vergleich",
+            "Personifikation",
+            "Hyperbel"
+          ],
+          "correct": 2,
+          "exp": "Dem Tag wird eine menschliche Fähigkeit (erwachen) zugeschrieben → Personifikation.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Schwarz wie die Nacht, weiß wie der Schnee.</span>",
+          "opts": [
+            "Vergleich",
+            "Antithese",
+            "Metapher",
+            "Sowohl Vergleich als auch Antithese"
+          ],
+          "correct": 3,
+          "exp": "Zwei Vergleiche mit „wie\" UND ein Gegensatzpaar (schwarz/weiß) → Vergleich + Antithese.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Er hat kein Auge zugetan die ganze Nacht.</span>",
+          "opts": [
+            "Vergleich",
+            "Metapher",
+            "Personifikation",
+            "Neologismus"
+          ],
+          "correct": 1,
+          "exp": "Bildhafte Redewendung ohne „wie\" — „kein Auge zutun\" meint „nicht schlafen\" → Metapher (idiomatisch).",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Das ist ja wunderbar!</span> (bei einer Katastrophe)",
+          "opts": [
+            "Hyperbel",
+            "Ironie",
+            "Metapher",
+            "Rhetorische Frage"
+          ],
+          "correct": 1,
+          "exp": "Das Gegenteil des Gemeinten wird gesagt → Ironie.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Oh, wie wunderbar!</span>",
+          "opts": [
+            "Interjektion",
+            "Hyperbel",
+            "Metapher",
+            "Neologismus"
+          ],
+          "correct": 0,
+          "exp": "„Oh!\" ist ein kurzer Ausruf, der ein Gefühl ausdrückt → Interjektion.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Er rannte, er sprang, er flog förmlich zum Ziel.</span>",
+          "opts": [
+            "Anapher",
+            "Klimax (Steigerung)",
+            "Alliteration",
+            "Parallelismus"
+          ],
+          "correct": 1,
+          "exp": "Steigerung: rannte → sprang → flog (immer intensiver) → Klimax.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel liegt vor?<span class=\"code\">Das Schifflein fliegt, der Webstuhl kracht.</span>",
+          "opts": [
+            "Anapher",
+            "Alliteration",
+            "Parallelismus",
+            "Personifikation"
+          ],
+          "correct": 2,
+          "exp": "Beide Teile haben den gleichen Satzbau (Subjekt + Prädikat) → Parallelismus.",
+          "fill": null
+        },
+        {
+          "q": "Was unterscheidet Metapher und Vergleich?",
+          "opts": [
+            "Keine Unterscheidung möglich",
+            "Der Vergleich nutzt „wie\" oder „als ob\", die Metapher nicht",
+            "Die Metapher ist länger",
+            "Der Vergleich ist nur in Gedichten"
+          ],
+          "correct": 1,
+          "exp": "Vergleich: explizit mit „wie\"/„als ob\" (schnell wie ein Pfeil). Metapher: bildlich OHNE Vergleichswort (Meer des Lebens).",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Freiheit, Freiheit, Freiheit!</span>",
+          "opts": [
+            "Wiederholung",
+            "Anapher",
+            "Alliteration",
+            "Hyperbel"
+          ],
+          "correct": 0,
+          "exp": "Dreifache Wiederholung desselben Wortes zur Betonung → Wiederholung (Repetitio). Anapher wäre bei mehreren Satzanfängen mit gleichem Wort.",
+          "fill": null
+        },
+        {
+          "q": "Welches Stilmittel?<span class=\"code\">Ich habe das schon millionenmal gesagt!</span>",
+          "opts": [
+            "Metapher",
+            "Hyperbel",
+            "Ironie",
+            "Vergleich"
+          ],
+          "correct": 1,
+          "exp": "Starke, unrealistische Übertreibung („millionenmal\") → Hyperbel.",
+          "fill": null
+        }
+      ]
+    }
+  ]
+}
