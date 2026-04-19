@@ -5,50 +5,58 @@
   "color": "#7A4FB5",
   "colorSoft": "#E6DDF2",
   "icon": "🏛️",
-  "version": 1,
+  "version": 2,
   "topics": [
     {
       "id": "lektion12",
       "name": "Lektion 12 — Aeneas flieht aus Troja",
-      "desc": "35 Vokabeln · Latein → Deutsch",
+      "desc": "35 Vokabeln · Latein → Deutsch · im Satzkontext",
       "color": "#7A4FB5",
       "colorSoft": "#E6DDF2",
       "merkwissen": [
         {
+          "h": "Didaktischer Hinweis",
+          "items": [
+            "Jede Vokabel wird mit einem <b>kurzen lateinischen Beispielsatz</b> geübt — Kontext wirkt als retrieval cue und verbessert die Lernwirksamkeit gegenüber isolierten Paaren (Nakata & Elgort 2021; MDPI 2025).",
+            "Richtung: <b>Latein → Deutsch</b>. Die falschen Antworten sind <b>semantisch nah</b> (Tür/Tor, Zorn/Angst …), damit du echte Diskrimination trainierst.",
+            "Die Hinweise (<i>portae f.</i>, <i>cado, cecidi</i>) zeigen Genitiv + Genus bzw. Stammformen — nötig für korrekte Deklination/Konjugation."
+          ]
+        },
+        {
           "h": "Schwerpunkte der Lektion",
           "items": [
-            "Thema: <b>Aeneas flieht aus Troja</b> — Flammen, Fatum, Flucht zu den Schiffen",
-            "<b>cum</b> + Konjunktiv (Perf./Plusq.) = <span class=\"ex\">als (plötzlich)</span> — typisches Erzähl-cum",
-            "Neutra auf <i>-us</i>: <span class=\"ex\">litus/litoris</span>, <span class=\"ex\">munus/muneris</span>, <span class=\"ex\">nomen/nominis</span>"
+            "Thema: <b>Aeneas flieht aus Troja</b> — Flammen, Fatum, Flucht zu den Schiffen.",
+            "<b>cum</b> + Konjunktiv (Perf./Plusq.) = <span class=\"ex\">als (plötzlich)</span> — Erzähl-cum.",
+            "Neutra der 3. Dekl.: <span class=\"ex\">litus/litoris</span>, <span class=\"ex\">munus/muneris</span>, <span class=\"ex\">nomen/nominis</span>, <span class=\"ex\">iter/itineris</span>."
           ]
         },
         {
           "h": "Verbformen merken",
           "items": [
-            "Reduplikations-Perfekt: <span class=\"ex\">cadere → cecidi</span>, <span class=\"ex\">currere → cucurri</span>, <span class=\"ex\">fallere → fefelli</span>",
-            "<i>-io</i>-Konjugation (3. kurz): <span class=\"ex\">capere → capio, cepi</span>; <span class=\"ex\">respicere → respicio, respexi</span>",
-            "Komposita von <i>ire</i>: <span class=\"ex\">adire → adeo, adii</span> · <span class=\"ex\">perire → pereo, perii</span>"
+            "Reduplikations-Perfekt: <span class=\"ex\">cadere → cecidi</span>, <span class=\"ex\">currere → cucurri</span>, <span class=\"ex\">fallere → fefelli</span>.",
+            "<i>-io</i>-Konjugation (3. kurz): <span class=\"ex\">capere → capio, cepi</span>; <span class=\"ex\">respicere → respicio, respexi</span>.",
+            "Komposita von <i>ire</i>: <span class=\"ex\">adire → adeo, adii</span> · <span class=\"ex\">perire → pereo, perii</span>."
           ]
         },
         {
-          "tip": "Tipp: Die Hinweise in Klammern (z. B. <i>portae f.</i>) zeigen Genitiv + Genus — ohne die kannst du ein Substantiv nicht richtig deklinieren."
+          "tip": "Tipp: Lies den Beispielsatz zuerst einmal vollständig — versuche, das Zielwort aus dem Kontext zu erraten, bevor du auf die Optionen klickst. Das ist „generative retrieval\" und funktioniert nachweislich am besten."
         }
       ],
       "questions": [
         {
-          "q": "Was bedeutet <b>porta</b>? <span class=\"code\">portae f.</span>",
+          "q": "Was bedeutet <b>porta</b>? <span class=\"code\">portae f.</span><br><i>Graeci portam oppugnant.</i>",
           "opts": [
-            "die Trümmer",
-            "zornig, wütend",
-            "das Tor",
-            "(sich) fürchten"
+            "die Mauer",
+            "die Tür",
+            "das Tal",
+            "das Tor"
           ],
-          "correct": 2,
-          "exp": "<b>porta</b> (portae f.) — das Tor",
+          "correct": 3,
+          "exp": "<b>porta</b> = das Tor <span class=\"code\">portae f.</span><br><i>Graeci portam oppugnant.</i> — Die Griechen greifen das Tor an.",
           "fill": {
-            "prompt": "porta <span class=\"code\">portae f.</span>",
+            "prompt": "<i>Graeci portam oppugnant.</i><br>Was bedeutet <b>porta</b>? <span class=\"code\">portae f.</span>",
             "answer": "das Tor",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Tor"
             ],
@@ -56,19 +64,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>dolus</b>? <span class=\"code\">doli m.</span>",
+          "q": "Was bedeutet <b>dolus</b>? <span class=\"code\">doli m.</span><br><i>Aeneas dolum Graecorum videt.</i>",
           "opts": [
-            "die Tür",
-            "die Angst, Furcht",
-            "der Schatten, das Schattenbild",
-            "die List"
+            "die Gefahr",
+            "der Verrat",
+            "die List",
+            "die Lüge"
           ],
-          "correct": 3,
-          "exp": "<b>dolus</b> (doli m.) — die List",
+          "correct": 2,
+          "exp": "<b>dolus</b> = die List <span class=\"code\">doli m.</span><br><i>Aeneas dolum Graecorum videt.</i> — Aeneas sieht die List der Griechen.",
           "fill": {
-            "prompt": "dolus <span class=\"code\">doli m.</span>",
+            "prompt": "<i>Aeneas dolum Graecorum videt.</i><br>Was bedeutet <b>dolus</b>? <span class=\"code\">doli m.</span>",
             "answer": "die List",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "List"
             ],
@@ -76,19 +84,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>iratus</b>? <span class=\"code\">-a, -um</span>",
+          "q": "Was bedeutet <b>iratus</b>? <span class=\"code\">-a, -um</span><br><i>Rex iratus pugnat.</i>",
           "opts": [
-            "das Jahr",
-            "versuchen",
-            "schwach, altersschwach",
+            "mutig",
+            "stolz",
+            "traurig, betrübt",
             "zornig, wütend"
           ],
           "correct": 3,
-          "exp": "<b>iratus</b> (-a, -um) — zornig, wütend",
+          "exp": "<b>iratus</b> = zornig, wütend <span class=\"code\">-a, -um</span><br><i>Rex iratus pugnat.</i> — Der zornige König kämpft.",
           "fill": {
-            "prompt": "iratus <span class=\"code\">-a, -um</span>",
+            "prompt": "<i>Rex iratus pugnat.</i><br>Was bedeutet <b>iratus</b>? <span class=\"code\">-a, -um</span>",
             "answer": "zornig, wütend",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "wütend",
               "zornig"
@@ -97,37 +105,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>cadere</b>? <span class=\"code\">cado, cecidi</span>",
+          "q": "Was bedeutet <b>cadere</b>? <span class=\"code\">cado, cecidi</span><br><i>Troia cadit.</i>",
           "opts": [
-            "als (plötzlich)",
-            "das Schicksal",
+            "stehen",
+            "steigen",
             "fallen",
-            "schwach, altersschwach"
+            "liegen"
           ],
           "correct": 2,
-          "exp": "<b>cadere</b> (cado, cecidi) — fallen",
+          "exp": "<b>cadere</b> = fallen <span class=\"code\">cado, cecidi</span><br><i>Troia cadit.</i> — Troja fällt.",
           "fill": {
-            "prompt": "cadere <span class=\"code\">cado, cecidi</span>",
+            "prompt": "<i>Troia cadit.</i><br>Was bedeutet <b>cadere</b>? <span class=\"code\">cado, cecidi</span>",
             "answer": "fallen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>ira</b>? <span class=\"code\">irae f.</span>",
+          "q": "Was bedeutet <b>ira</b>? <span class=\"code\">irae f.</span><br><i>Ira deorum magna est.</i>",
           "opts": [
-            "zurückblicken",
-            "die Trümmer",
-            "der Zorn, die Wut",
-            "der Schatten, das Schattenbild"
+            "die Angst, Furcht",
+            "die Trauer",
+            "der Hass",
+            "der Zorn, die Wut"
           ],
-          "correct": 2,
-          "exp": "<b>ira</b> (irae f.) — der Zorn, die Wut",
+          "correct": 3,
+          "exp": "<b>ira</b> = der Zorn, die Wut <span class=\"code\">irae f.</span><br><i>Ira deorum magna est.</i> — Der Zorn der Götter ist groß.",
           "fill": {
-            "prompt": "ira <span class=\"code\">irae f.</span>",
+            "prompt": "<i>Ira deorum magna est.</i><br>Was bedeutet <b>ira</b>? <span class=\"code\">irae f.</span>",
             "answer": "der Zorn, die Wut",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Wut",
               "Zorn",
@@ -138,37 +146,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>fallere</b>? <span class=\"code\">fallo, fefelli</span>",
+          "q": "Was bedeutet <b>fallere</b>? <span class=\"code\">fallo, fefelli</span><br><i>Graeci Troianos fallunt.</i>",
           "opts": [
-            "der Name",
-            "die Angst, Furcht",
-            "die Tür",
+            "belügen",
+            "vertreiben",
+            "verraten",
             "täuschen"
           ],
           "correct": 3,
-          "exp": "<b>fallere</b> (fallo, fefelli) — täuschen",
+          "exp": "<b>fallere</b> = täuschen <span class=\"code\">fallo, fefelli</span><br><i>Graeci Troianos fallunt.</i> — Die Griechen täuschen die Trojaner.",
           "fill": {
-            "prompt": "fallere <span class=\"code\">fallo, fefelli</span>",
+            "prompt": "<i>Graeci Troianos fallunt.</i><br>Was bedeutet <b>fallere</b>? <span class=\"code\">fallo, fefelli</span>",
             "answer": "täuschen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>timor</b>? <span class=\"code\">timoris m.</span>",
+          "q": "Was bedeutet <b>timor</b>? <span class=\"code\">timoris m.</span><br><i>Timor animos capit.</i>",
           "opts": [
-            "zornig, wütend",
-            "die Heimat",
-            "fangen, ergreifen",
-            "die Angst, Furcht"
+            "die Hoffnung",
+            "der Zorn, die Wut",
+            "die Angst, Furcht",
+            "die Trauer"
           ],
-          "correct": 3,
-          "exp": "<b>timor</b> (timoris m.) — die Angst, Furcht",
+          "correct": 2,
+          "exp": "<b>timor</b> = die Angst, Furcht <span class=\"code\">timoris m.</span><br><i>Timor animos capit.</i> — Die Angst ergreift die Herzen.",
           "fill": {
-            "prompt": "timor <span class=\"code\">timoris m.</span>",
+            "prompt": "<i>Timor animos capit.</i><br>Was bedeutet <b>timor</b>? <span class=\"code\">timoris m.</span>",
             "answer": "die Angst, Furcht",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Angst",
               "Furcht",
@@ -178,19 +186,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>ianua</b>? <span class=\"code\">ianuae f.</span>",
+          "q": "Was bedeutet <b>ianua</b>? <span class=\"code\">ianuae f.</span><br><i>Aeneas ianuam aperit.</i>",
           "opts": [
-            "die Flamme",
-            "übergeben, anvertrauen",
-            "die Penaten (röm. Hausgötter)",
-            "die Tür"
+            "das Tor",
+            "die Schwelle",
+            "die Tür",
+            "das Fenster"
           ],
-          "correct": 3,
-          "exp": "<b>ianua</b> (ianuae f.) — die Tür",
+          "correct": 2,
+          "exp": "<b>ianua</b> = die Tür <span class=\"code\">ianuae f.</span><br><i>Aeneas ianuam aperit.</i> — Aeneas öffnet die Tür.",
           "fill": {
-            "prompt": "ianua <span class=\"code\">ianuae f.</span>",
+            "prompt": "<i>Aeneas ianuam aperit.</i><br>Was bedeutet <b>ianua</b>? <span class=\"code\">ianuae f.</span>",
             "answer": "die Tür",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Tür"
             ],
@@ -198,37 +206,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>timere</b>? <span class=\"code\">timeo, timui</span>",
+          "q": "Was bedeutet <b>timere</b>? <span class=\"code\">timeo, timui</span><br><i>Troiani deos timent.</i>",
           "opts": [
-            "schwach, altersschwach",
-            "täuschen",
-            "die Flamme",
-            "(sich) fürchten"
+            "(sich) fürchten",
+            "lieben",
+            "hassen",
+            "bewundern"
           ],
-          "correct": 3,
-          "exp": "<b>timere</b> (timeo, timui) — (sich) fürchten",
+          "correct": 0,
+          "exp": "<b>timere</b> = (sich) fürchten <span class=\"code\">timeo, timui</span><br><i>Troiani deos timent.</i> — Die Trojaner fürchten die Götter.",
           "fill": {
-            "prompt": "timere <span class=\"code\">timeo, timui</span>",
+            "prompt": "<i>Troiani deos timent.</i><br>Was bedeutet <b>timere</b>? <span class=\"code\">timeo, timui</span>",
             "answer": "(sich) fürchten",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>adire</b>? <span class=\"code\">adeo, adii</span>",
+          "q": "Was bedeutet <b>adire</b>? <span class=\"code\">adeo, adii</span><br><i>Aeneas patrem adit.</i>",
           "opts": [
-            "pflichtbewusst",
+            "folgen",
+            "fliehen",
             "sich jdm. nähern, herangehen",
-            "die Heimat",
-            "übergeben, anvertrauen"
+            "weggehen"
           ],
-          "correct": 1,
-          "exp": "<b>adire</b> (adeo, adii) — sich jdm. nähern, herangehen",
+          "correct": 2,
+          "exp": "<b>adire</b> = sich jdm. nähern, herangehen <span class=\"code\">adeo, adii</span><br><i>Aeneas patrem adit.</i> — Aeneas geht zum Vater hin.",
           "fill": {
-            "prompt": "adire <span class=\"code\">adeo, adii</span>",
+            "prompt": "<i>Aeneas patrem adit.</i><br>Was bedeutet <b>adire</b>? <span class=\"code\">adeo, adii</span>",
             "answer": "sich jdm. nähern, herangehen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "herangehen",
               "sich jdm. nähern"
@@ -237,19 +245,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>perire</b>? <span class=\"code\">pereo, perii</span>",
+          "q": "Was bedeutet <b>perire</b>? <span class=\"code\">pereo, perii</span><br><i>Multi Troiani pereunt.</i>",
           "opts": [
-            "der Zorn, die Wut",
-            "pflichtbewusst",
-            "ums Leben kommen, sterben",
-            "die Trümmer"
+            "fliehen",
+            "verschwinden",
+            "siegen",
+            "ums Leben kommen, sterben"
           ],
-          "correct": 2,
-          "exp": "<b>perire</b> (pereo, perii) — ums Leben kommen, sterben",
+          "correct": 3,
+          "exp": "<b>perire</b> = ums Leben kommen, sterben <span class=\"code\">pereo, perii</span><br><i>Multi Troiani pereunt.</i> — Viele Trojaner kommen ums Leben.",
           "fill": {
-            "prompt": "perire <span class=\"code\">pereo, perii</span>",
+            "prompt": "<i>Multi Troiani pereunt.</i><br>Was bedeutet <b>perire</b>? <span class=\"code\">pereo, perii</span>",
             "answer": "ums Leben kommen, sterben",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "sterben",
               "ums Leben kommen"
@@ -258,55 +266,55 @@
           }
         },
         {
-          "q": "Was bedeutet <b>pius</b>? <span class=\"code\">-a, -um</span>",
+          "q": "Was bedeutet <b>pius</b>? <span class=\"code\">-a, -um</span><br><i>Aeneas pius est.</i>",
           "opts": [
-            "der Name",
-            "schwach, altersschwach",
-            "pflichtbewusst",
-            "die Trümmer"
+            "treu",
+            "fromm, gottgefällig",
+            "gerecht",
+            "pflichtbewusst"
           ],
-          "correct": 2,
-          "exp": "<b>pius</b> (-a, -um) — pflichtbewusst",
+          "correct": 3,
+          "exp": "<b>pius</b> = pflichtbewusst <span class=\"code\">-a, -um</span><br><i>Aeneas pius est.</i> — Aeneas ist pflichtbewusst.",
           "fill": {
-            "prompt": "pius <span class=\"code\">-a, -um</span>",
+            "prompt": "<i>Aeneas pius est.</i><br>Was bedeutet <b>pius</b>? <span class=\"code\">-a, -um</span>",
             "answer": "pflichtbewusst",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>currere</b>? <span class=\"code\">curro, cucurri</span>",
+          "q": "Was bedeutet <b>currere</b>? <span class=\"code\">curro, cucurri</span><br><i>Aeneas ad navem currit.</i>",
           "opts": [
-            "zornig, wütend",
-            "die Hoffnung aufgeben, verzweifeln",
+            "springen",
+            "gehen",
             "laufen",
-            "der Weg, der Marsch"
+            "eilen"
           ],
           "correct": 2,
-          "exp": "<b>currere</b> (curro, cucurri) — laufen",
+          "exp": "<b>currere</b> = laufen <span class=\"code\">curro, cucurri</span><br><i>Aeneas ad navem currit.</i> — Aeneas läuft zum Schiff.",
           "fill": {
-            "prompt": "currere <span class=\"code\">curro, cucurri</span>",
+            "prompt": "<i>Aeneas ad navem currit.</i><br>Was bedeutet <b>currere</b>? <span class=\"code\">curro, cucurri</span>",
             "answer": "laufen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>penates</b>? <span class=\"code\">penatium m. Pl.</span>",
+          "q": "Was bedeutet <b>penates</b>? <span class=\"code\">penatium m. Pl.</span><br><i>Aeneas penates servat.</i>",
           "opts": [
-            "die Penaten (röm. Hausgötter)",
-            "der Weg, der Marsch",
-            "das Jahr",
-            "die Aufgabe"
+            "die Priester",
+            "die Schutzgeister",
+            "die Ahnen",
+            "die Penaten (röm. Hausgötter)"
           ],
-          "correct": 0,
-          "exp": "<b>penates</b> (penatium m. Pl.) — die Penaten (röm. Hausgötter)",
+          "correct": 3,
+          "exp": "<b>penates</b> = die Penaten (röm. Hausgötter) <span class=\"code\">penatium m. Pl.</span><br><i>Aeneas penates servat.</i> — Aeneas rettet die Penaten.",
           "fill": {
-            "prompt": "penates <span class=\"code\">penatium m. Pl.</span>",
+            "prompt": "<i>Aeneas penates servat.</i><br>Was bedeutet <b>penates</b>? <span class=\"code\">penatium m. Pl.</span>",
             "answer": "die Penaten (röm. Hausgötter)",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Penaten (röm. Hausgötter)"
             ],
@@ -314,19 +322,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>annus</b>? <span class=\"code\">anni m.</span>",
+          "q": "Was bedeutet <b>annus</b>? <span class=\"code\">anni m.</span><br><i>Multos annos pugnant.</i>",
           "opts": [
             "das Jahr",
-            "(sich) fürchten",
-            "fangen, ergreifen",
-            "sich jdm. nähern, herangehen"
+            "der Tag",
+            "der Monat",
+            "die Zeit"
           ],
           "correct": 0,
-          "exp": "<b>annus</b> (anni m.) — das Jahr",
+          "exp": "<b>annus</b> = das Jahr <span class=\"code\">anni m.</span><br><i>Multos annos pugnant.</i> — Sie kämpfen viele Jahre.",
           "fill": {
-            "prompt": "annus <span class=\"code\">anni m.</span>",
+            "prompt": "<i>Multos annos pugnant.</i><br>Was bedeutet <b>annus</b>? <span class=\"code\">anni m.</span>",
             "answer": "das Jahr",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Jahr"
             ],
@@ -334,19 +342,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>infirmus</b>? <span class=\"code\">-a, -um</span>",
+          "q": "Was bedeutet <b>infirmus</b>? <span class=\"code\">-a, -um</span><br><i>Pater infirmus est.</i>",
           "opts": [
-            "die Hoffnung aufgeben, verzweifeln",
-            "übergeben, anvertrauen",
+            "alt",
             "schwach, altersschwach",
-            "der Schatten, das Schattenbild"
+            "müde",
+            "krank"
           ],
-          "correct": 2,
-          "exp": "<b>infirmus</b> (-a, -um) — schwach, altersschwach",
+          "correct": 1,
+          "exp": "<b>infirmus</b> = schwach, altersschwach <span class=\"code\">-a, -um</span><br><i>Pater infirmus est.</i> — Der Vater ist altersschwach.",
           "fill": {
-            "prompt": "infirmus <span class=\"code\">-a, -um</span>",
+            "prompt": "<i>Pater infirmus est.</i><br>Was bedeutet <b>infirmus</b>? <span class=\"code\">-a, -um</span>",
             "answer": "schwach, altersschwach",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "altersschwach",
               "schwach"
@@ -355,19 +363,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>dextra</b>? <span class=\"code\">dextrae f.</span>",
+          "q": "Was bedeutet <b>dextra</b>? <span class=\"code\">dextrae f.</span><br><i>Aeneas dextram tenet.</i>",
           "opts": [
-            "die Tür",
-            "die rechte Hand",
-            "fallen",
-            "täuschen"
+            "die linke Hand",
+            "die Faust",
+            "der Arm",
+            "die rechte Hand"
           ],
-          "correct": 1,
-          "exp": "<b>dextra</b> (dextrae f.) — die rechte Hand",
+          "correct": 3,
+          "exp": "<b>dextra</b> = die rechte Hand <span class=\"code\">dextrae f.</span><br><i>Aeneas dextram tenet.</i> — Aeneas hält die rechte Hand.",
           "fill": {
-            "prompt": "dextra <span class=\"code\">dextrae f.</span>",
+            "prompt": "<i>Aeneas dextram tenet.</i><br>Was bedeutet <b>dextra</b>? <span class=\"code\">dextrae f.</span>",
             "answer": "die rechte Hand",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "rechte Hand"
             ],
@@ -375,19 +383,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>capere</b>? <span class=\"code\">capio, cepi</span>",
+          "q": "Was bedeutet <b>capere</b>? <span class=\"code\">capio, cepi</span><br><i>Graeci urbem capiunt.</i>",
           "opts": [
+            "halten",
+            "umfassen",
             "fangen, ergreifen",
-            "der Schatten, das Schattenbild",
-            "der Zorn, die Wut",
-            "der Name"
+            "greifen"
           ],
-          "correct": 0,
-          "exp": "<b>capere</b> (capio, cepi) — fangen, ergreifen",
+          "correct": 2,
+          "exp": "<b>capere</b> = fangen, ergreifen <span class=\"code\">capio, cepi</span><br><i>Graeci urbem capiunt.</i> — Die Griechen erobern die Stadt.",
           "fill": {
-            "prompt": "capere <span class=\"code\">capio, cepi</span>",
+            "prompt": "<i>Graeci urbem capiunt.</i><br>Was bedeutet <b>capere</b>? <span class=\"code\">capio, cepi</span>",
             "answer": "fangen, ergreifen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "ergreifen",
               "fangen"
@@ -396,19 +404,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>ruinae</b>? <span class=\"code\">ruinarum f. Pl.</span>",
+          "q": "Was bedeutet <b>ruinae</b>? <span class=\"code\">ruinarum f. Pl.</span><br><i>Inter ruinas currit.</i>",
           "opts": [
-            "das Tor",
-            "das Schiff",
-            "die rechte Hand",
+            "die Mauern",
+            "die Steine",
+            "die Reste",
             "die Trümmer"
           ],
           "correct": 3,
-          "exp": "<b>ruinae</b> (ruinarum f. Pl.) — die Trümmer",
+          "exp": "<b>ruinae</b> = die Trümmer <span class=\"code\">ruinarum f. Pl.</span><br><i>Inter ruinas currit.</i> — Er läuft durch die Trümmer.",
           "fill": {
-            "prompt": "ruinae <span class=\"code\">ruinarum f. Pl.</span>",
+            "prompt": "<i>Inter ruinas currit.</i><br>Was bedeutet <b>ruinae</b>? <span class=\"code\">ruinarum f. Pl.</span>",
             "answer": "die Trümmer",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Trümmer"
             ],
@@ -416,19 +424,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>flamma</b>? <span class=\"code\">flammae f.</span>",
+          "q": "Was bedeutet <b>flamma</b>? <span class=\"code\">flammae f.</span><br><i>Flammae urbem delent.</i>",
           "opts": [
-            "die Tür",
-            "zurückblicken",
             "die Flamme",
-            "die Trümmer"
+            "der Rauch",
+            "das Feuer",
+            "die Glut"
           ],
-          "correct": 2,
-          "exp": "<b>flamma</b> (flammae f.) — die Flamme",
+          "correct": 0,
+          "exp": "<b>flamma</b> = die Flamme <span class=\"code\">flammae f.</span><br><i>Flammae urbem delent.</i> — Die Flammen zerstören die Stadt.",
           "fill": {
-            "prompt": "flamma <span class=\"code\">flammae f.</span>",
+            "prompt": "<i>Flammae urbem delent.</i><br>Was bedeutet <b>flamma</b>? <span class=\"code\">flammae f.</span>",
             "answer": "die Flamme",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Flamme"
             ],
@@ -436,19 +444,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>litus</b>? <span class=\"code\">litoris n.</span>",
+          "q": "Was bedeutet <b>litus</b>? <span class=\"code\">litoris n.</span><br><i>Naves ad litus veniunt.</i>",
           "opts": [
-            "versuchen",
             "die Küste, der Strand",
-            "die rechte Hand",
-            "das Tor"
+            "der Hafen",
+            "das Ufer",
+            "das Meer"
           ],
-          "correct": 1,
-          "exp": "<b>litus</b> (litoris n.) — die Küste, der Strand",
+          "correct": 0,
+          "exp": "<b>litus</b> = die Küste, der Strand <span class=\"code\">litoris n.</span><br><i>Naves ad litus veniunt.</i> — Die Schiffe kommen zur Küste.",
           "fill": {
-            "prompt": "litus <span class=\"code\">litoris n.</span>",
+            "prompt": "<i>Naves ad litus veniunt.</i><br>Was bedeutet <b>litus</b>? <span class=\"code\">litoris n.</span>",
             "answer": "die Küste, der Strand",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Küste",
               "Strand",
@@ -459,19 +467,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>iter</b>? <span class=\"code\">itineris n.</span>",
+          "q": "Was bedeutet <b>iter</b>? <span class=\"code\">itineris n.</span><br><i>Iter longum est.</i>",
           "opts": [
-            "versuchen",
             "der Weg, der Marsch",
-            "laufen",
-            "die Flamme"
+            "der Pfad",
+            "die Reise",
+            "die Straße"
           ],
-          "correct": 1,
-          "exp": "<b>iter</b> (itineris n.) — der Weg, der Marsch",
+          "correct": 0,
+          "exp": "<b>iter</b> = der Weg, der Marsch <span class=\"code\">itineris n.</span><br><i>Iter longum est.</i> — Der Weg ist lang.",
           "fill": {
-            "prompt": "iter <span class=\"code\">itineris n.</span>",
+            "prompt": "<i>Iter longum est.</i><br>Was bedeutet <b>iter</b>? <span class=\"code\">itineris n.</span>",
             "answer": "der Weg, der Marsch",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Marsch",
               "Weg",
@@ -482,37 +490,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>respicere</b>? <span class=\"code\">respicio, respexi</span>",
+          "q": "Was bedeutet <b>respicere</b>? <span class=\"code\">respicio, respexi</span><br><i>Aeneas urbem respicit.</i>",
           "opts": [
-            "das Schiff",
-            "das Tor",
-            "zurückblicken",
-            "die Küste, der Strand"
+            "hinsehen",
+            "beobachten",
+            "umsehen",
+            "zurückblicken"
           ],
-          "correct": 2,
-          "exp": "<b>respicere</b> (respicio, respexi) — zurückblicken",
+          "correct": 3,
+          "exp": "<b>respicere</b> = zurückblicken <span class=\"code\">respicio, respexi</span><br><i>Aeneas urbem respicit.</i> — Aeneas blickt zur Stadt zurück.",
           "fill": {
-            "prompt": "respicere <span class=\"code\">respicio, respexi</span>",
+            "prompt": "<i>Aeneas urbem respicit.</i><br>Was bedeutet <b>respicere</b>? <span class=\"code\">respicio, respexi</span>",
             "answer": "zurückblicken",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>oculus</b>? <span class=\"code\">oculi m.</span>",
+          "q": "Was bedeutet <b>oculus</b>? <span class=\"code\">oculi m.</span><br><i>Oculi eius lacrimant.</i>",
           "opts": [
-            "übergeben, anvertrauen",
-            "die Flamme",
-            "schwach, altersschwach",
-            "das Auge"
+            "das Ohr",
+            "der Mund",
+            "das Auge",
+            "der Blick"
           ],
-          "correct": 3,
-          "exp": "<b>oculus</b> (oculi m.) — das Auge",
+          "correct": 2,
+          "exp": "<b>oculus</b> = das Auge <span class=\"code\">oculi m.</span><br><i>Oculi eius lacrimant.</i> — Seine Augen weinen.",
           "fill": {
-            "prompt": "oculus <span class=\"code\">oculi m.</span>",
+            "prompt": "<i>Oculi eius lacrimant.</i><br>Was bedeutet <b>oculus</b>? <span class=\"code\">oculi m.</span>",
             "answer": "das Auge",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Auge"
             ],
@@ -520,19 +528,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>tradere</b>? <span class=\"code\">trado, tradidi</span>",
+          "q": "Was bedeutet <b>tradere</b>? <span class=\"code\">trado, tradidi</span><br><i>Pater filium deis tradit.</i>",
           "opts": [
-            "die Aufgabe",
-            "der Zorn, die Wut",
+            "überlassen",
             "übergeben, anvertrauen",
-            "täuschen"
+            "übertragen",
+            "schicken"
           ],
-          "correct": 2,
-          "exp": "<b>tradere</b> (trado, tradidi) — übergeben, anvertrauen",
+          "correct": 1,
+          "exp": "<b>tradere</b> = übergeben, anvertrauen <span class=\"code\">trado, tradidi</span><br><i>Pater filium deis tradit.</i> — Der Vater vertraut den Sohn den Göttern an.",
           "fill": {
-            "prompt": "tradere <span class=\"code\">trado, tradidi</span>",
+            "prompt": "<i>Pater filium deis tradit.</i><br>Was bedeutet <b>tradere</b>? <span class=\"code\">trado, tradidi</span>",
             "answer": "übergeben, anvertrauen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "anvertrauen",
               "übergeben"
@@ -541,19 +549,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>nomen</b>? <span class=\"code\">nominis n.</span>",
+          "q": "Was bedeutet <b>nomen</b>? <span class=\"code\">nominis n.</span><br><i>Nomen eius Aeneas est.</i>",
           "opts": [
-            "ums Leben kommen, sterben",
-            "die rechte Hand",
+            "der Ruhm",
+            "das Zeichen",
             "der Name",
-            "das Schiff"
+            "der Titel"
           ],
           "correct": 2,
-          "exp": "<b>nomen</b> (nominis n.) — der Name",
+          "exp": "<b>nomen</b> = der Name <span class=\"code\">nominis n.</span><br><i>Nomen eius Aeneas est.</i> — Sein Name ist Aeneas.",
           "fill": {
-            "prompt": "nomen <span class=\"code\">nominis n.</span>",
+            "prompt": "<i>Nomen eius Aeneas est.</i><br>Was bedeutet <b>nomen</b>? <span class=\"code\">nominis n.</span>",
             "answer": "der Name",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Name"
             ],
@@ -561,19 +569,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>desperare</b>? <span class=\"code\">despero</span>",
+          "q": "Was bedeutet <b>desperare</b>? <span class=\"code\">despero</span><br><i>Troiani non desperant.</i>",
           "opts": [
-            "die Hoffnung aufgeben, verzweifeln",
-            "die Flamme",
-            "der Name",
-            "das Auge"
+            "zögern",
+            "aufgeben",
+            "verzagen",
+            "die Hoffnung aufgeben, verzweifeln"
           ],
-          "correct": 0,
-          "exp": "<b>desperare</b> (despero) — die Hoffnung aufgeben, verzweifeln",
+          "correct": 3,
+          "exp": "<b>desperare</b> = die Hoffnung aufgeben, verzweifeln <span class=\"code\">despero</span><br><i>Troiani non desperant.</i> — Die Trojaner verzweifeln nicht.",
           "fill": {
-            "prompt": "desperare <span class=\"code\">despero</span>",
+            "prompt": "<i>Troiani non desperant.</i><br>Was bedeutet <b>desperare</b>? <span class=\"code\">despero</span>",
             "answer": "die Hoffnung aufgeben, verzweifeln",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Hoffnung aufgeben",
               "die Hoffnung aufgeben",
@@ -583,37 +591,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>cum</b>? <span class=\"code\">Subj. + Perf.</span>",
+          "q": "Was bedeutet <b>cum</b>? <span class=\"code\">Subj. + Perf.</span><br><i>Cum fugeret, patrem vidit.</i>",
           "opts": [
-            "schwach, altersschwach",
-            "das Jahr",
-            "die Tür",
-            "als (plötzlich)"
+            "weil",
+            "nachdem",
+            "als (plötzlich)",
+            "obwohl"
           ],
-          "correct": 3,
-          "exp": "<b>cum</b> (Subj. + Perf.) — als (plötzlich)",
+          "correct": 2,
+          "exp": "<b>cum</b> = als (plötzlich) <span class=\"code\">Subj. + Perf.</span><br><i>Cum fugeret, patrem vidit.</i> — Als er floh, sah er den Vater.",
           "fill": {
-            "prompt": "cum <span class=\"code\">Subj. + Perf.</span>",
+            "prompt": "<i>Cum fugeret, patrem vidit.</i><br>Was bedeutet <b>cum</b>? <span class=\"code\">Subj. + Perf.</span>",
             "answer": "als (plötzlich)",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>umbra</b>? <span class=\"code\">umbrae f.</span>",
+          "q": "Was bedeutet <b>umbra</b>? <span class=\"code\">umbrae f.</span><br><i>Umbra patris apparet.</i>",
           "opts": [
-            "das Jahr",
-            "das Tor",
-            "der Zorn, die Wut",
-            "der Schatten, das Schattenbild"
+            "der Geist",
+            "das Gespenst",
+            "der Schatten, das Schattenbild",
+            "das Bild"
           ],
-          "correct": 3,
-          "exp": "<b>umbra</b> (umbrae f.) — der Schatten, das Schattenbild",
+          "correct": 2,
+          "exp": "<b>umbra</b> = der Schatten, das Schattenbild <span class=\"code\">umbrae f.</span><br><i>Umbra patris apparet.</i> — Der Schatten des Vaters erscheint.",
           "fill": {
-            "prompt": "umbra <span class=\"code\">umbrae f.</span>",
+            "prompt": "<i>Umbra patris apparet.</i><br>Was bedeutet <b>umbra</b>? <span class=\"code\">umbrae f.</span>",
             "answer": "der Schatten, das Schattenbild",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Schatten",
               "Schattenbild",
@@ -624,19 +632,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>fatum</b>? <span class=\"code\">fati n.</span>",
+          "q": "Was bedeutet <b>fatum</b>? <span class=\"code\">fati n.</span><br><i>Fatum Aeneae magnum est.</i>",
           "opts": [
             "das Schicksal",
-            "der Weg, der Marsch",
-            "der Zorn, die Wut",
-            "zornig, wütend"
+            "der Wille der Götter",
+            "der Tod",
+            "das Los"
           ],
           "correct": 0,
-          "exp": "<b>fatum</b> (fati n.) — das Schicksal",
+          "exp": "<b>fatum</b> = das Schicksal <span class=\"code\">fati n.</span><br><i>Fatum Aeneae magnum est.</i> — Das Schicksal des Aeneas ist groß.",
           "fill": {
-            "prompt": "fatum <span class=\"code\">fati n.</span>",
+            "prompt": "<i>Fatum Aeneae magnum est.</i><br>Was bedeutet <b>fatum</b>? <span class=\"code\">fati n.</span>",
             "answer": "das Schicksal",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Schicksal"
             ],
@@ -644,19 +652,19 @@
           }
         },
         {
-          "q": "Was bedeutet <b>patria</b>? <span class=\"code\">patriae f.</span>",
+          "q": "Was bedeutet <b>patria</b>? <span class=\"code\">patriae f.</span><br><i>Aeneas patriam relinquit.</i>",
           "opts": [
+            "die Stadt",
             "die Heimat",
-            "(sich) fürchten",
-            "neu",
-            "die Penaten (röm. Hausgötter)"
+            "das Land",
+            "das Vaterland"
           ],
-          "correct": 0,
-          "exp": "<b>patria</b> (patriae f.) — die Heimat",
+          "correct": 1,
+          "exp": "<b>patria</b> = die Heimat <span class=\"code\">patriae f.</span><br><i>Aeneas patriam relinquit.</i> — Aeneas verlässt die Heimat.",
           "fill": {
-            "prompt": "patria <span class=\"code\">patriae f.</span>",
+            "prompt": "<i>Aeneas patriam relinquit.</i><br>Was bedeutet <b>patria</b>? <span class=\"code\">patriae f.</span>",
             "answer": "die Heimat",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Heimat"
             ],
@@ -664,37 +672,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>novus</b>? <span class=\"code\">-a, -um</span>",
+          "q": "Was bedeutet <b>novus</b>? <span class=\"code\">-a, -um</span><br><i>Novam patriam quaerit.</i>",
           "opts": [
             "neu",
-            "als (plötzlich)",
-            "laufen",
-            "die Angst, Furcht"
+            "fremd",
+            "jung",
+            "frisch"
           ],
           "correct": 0,
-          "exp": "<b>novus</b> (-a, -um) — neu",
+          "exp": "<b>novus</b> = neu <span class=\"code\">-a, -um</span><br><i>Novam patriam quaerit.</i> — Er sucht eine neue Heimat.",
           "fill": {
-            "prompt": "novus <span class=\"code\">-a, -um</span>",
+            "prompt": "<i>Novam patriam quaerit.</i><br>Was bedeutet <b>novus</b>? <span class=\"code\">-a, -um</span>",
             "answer": "neu",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>munus</b>? <span class=\"code\">muneris n.</span>",
+          "q": "Was bedeutet <b>munus</b>? <span class=\"code\">muneris n.</span><br><i>Munus difficile est.</i>",
           "opts": [
-            "die Angst, Furcht",
-            "fallen",
-            "das Schicksal",
-            "die Aufgabe"
+            "die Aufgabe",
+            "das Geschenk",
+            "die Pflicht",
+            "das Werk"
           ],
-          "correct": 3,
-          "exp": "<b>munus</b> (muneris n.) — die Aufgabe",
+          "correct": 0,
+          "exp": "<b>munus</b> = die Aufgabe <span class=\"code\">muneris n.</span><br><i>Munus difficile est.</i> — Die Aufgabe ist schwierig.",
           "fill": {
-            "prompt": "munus <span class=\"code\">muneris n.</span>",
+            "prompt": "<i>Munus difficile est.</i><br>Was bedeutet <b>munus</b>? <span class=\"code\">muneris n.</span>",
             "answer": "die Aufgabe",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Aufgabe"
             ],
@@ -702,37 +710,37 @@
           }
         },
         {
-          "q": "Was bedeutet <b>temptare</b>? <span class=\"code\">tempto</span>",
+          "q": "Was bedeutet <b>temptare</b>? <span class=\"code\">tempto</span><br><i>Fugam temptat.</i>",
           "opts": [
+            "wagen",
+            "erproben",
             "versuchen",
-            "laufen",
-            "schwach, altersschwach",
-            "die Angst, Furcht"
+            "probieren"
           ],
-          "correct": 0,
-          "exp": "<b>temptare</b> (tempto) — versuchen",
+          "correct": 2,
+          "exp": "<b>temptare</b> = versuchen <span class=\"code\">tempto</span><br><i>Fugam temptat.</i> — Er versucht die Flucht.",
           "fill": {
-            "prompt": "temptare <span class=\"code\">tempto</span>",
+            "prompt": "<i>Fugam temptat.</i><br>Was bedeutet <b>temptare</b>? <span class=\"code\">tempto</span>",
             "answer": "versuchen",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [],
             "caseSensitive": false
           }
         },
         {
-          "q": "Was bedeutet <b>navis</b>? <span class=\"code\">navis f., Gen. Pl. navium</span>",
+          "q": "Was bedeutet <b>navis</b>? <span class=\"code\">navis f., Gen. Pl. navium</span><br><i>Naves ad litus parant.</i>",
           "opts": [
-            "pflichtbewusst",
+            "das Boot",
+            "der Kahn",
             "das Schiff",
-            "(sich) fürchten",
-            "als (plötzlich)"
+            "die Flotte"
           ],
-          "correct": 1,
-          "exp": "<b>navis</b> (navis f., Gen. Pl. navium) — das Schiff",
+          "correct": 2,
+          "exp": "<b>navis</b> = das Schiff <span class=\"code\">navis f., Gen. Pl. navium</span><br><i>Naves ad litus parant.</i> — Sie machen die Schiffe an der Küste bereit.",
           "fill": {
-            "prompt": "navis <span class=\"code\">navis f., Gen. Pl. navium</span>",
+            "prompt": "<i>Naves ad litus parant.</i><br>Was bedeutet <b>navis</b>? <span class=\"code\">navis f., Gen. Pl. navium</span>",
             "answer": "das Schiff",
-            "hint": "Deutsche Übersetzung eingeben (Artikel optional)",
+            "hint": "Deutsche Übersetzung (Artikel optional)",
             "accept": [
               "Schiff"
             ],
