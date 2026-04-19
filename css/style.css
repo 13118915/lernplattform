@@ -1431,3 +1431,27 @@
     border-top: 1px solid var(--line);
     line-height: 1.5;
   }
+
+  .modal-box .fachnote {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 20px;
+  }
+  .modal-box .fachnote h4 {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    color: var(--accent);
+    margin: 0 0 10px 0;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .modal-box .fachnote p {
+    margin-bottom: 8px;
+  }
+  .modal-box hr.fachnote-sep {
+    border: 0;
+    border-top: 1px dashed var(--line);
+    margin: 4px 0 18px 0;
+  }

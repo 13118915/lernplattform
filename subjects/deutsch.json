@@ -5,7 +5,8 @@
   "color": "#B8431E",
   "colorSoft": "#F0D9CE",
   "icon": "📝",
-  "version": 1,
+  "version": 2,
+  "methode": "<p><b>Warum so und nicht anders?</b> Deutsch Klasse 10 (Kommasetzung usw.) ist Regelanwendung, keine Vokabel-Assoziation. Die Fragen zeigen darum <b>konkrete Sätze als Code-Block</b> und fragen nach der richtigen Setzung — die Regel wird <em>am Fall</em> aktiviert, nicht abstrakt reproduziert.</p><p><b>MC + optional Fill</b>: Für diskrete Entscheidungen (Komma ja/nein, welche Variante ist korrekt) ist Multiple Choice didaktisch passend; wo Produktion verlangt ist (Satz korrekt schreiben), steht <em>fill</em> als aktive Eintippung.</p><p><b>Merkwissen pro Thema</b> fasst die Regel vorab zusammen — dann erst die Fragen. Das matcht <em>Advance Organizer</em> (Ausubel 1968) und reduziert kalte Abrufkosten.</p><p><b>Erklärungen</b> geben immer die <b>Regel-Begründung</b>, nicht nur „richtig/falsch“. Nach Sweller (1988, Cognitive Load) lernen Anfänger besser, wenn die Regel sichtbar wird, statt sie aus Beispielen induzieren zu müssen.</p><div class=\"source\"><b>Fachliche Quellen</b><br>Ausubel, D. P. (1968). <em>Educational Psychology: A Cognitive View.</em><br>Sweller, J. (1988). Cognitive load during problem solving. <em>Cognitive Science.</em><br>Roediger, H. L. &amp; Butler, A. C. (2011). The critical role of retrieval practice in long-term retention.</div>",
   "topics": [
     {
       "id": "komma",

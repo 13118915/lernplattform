@@ -52,7 +52,8 @@ CREATE TABLE IF NOT EXISTS subjects (
   color_soft TEXT,
   icon TEXT,
   version INTEGER DEFAULT 1,
-  sort_order INTEGER DEFAULT 0
+  sort_order INTEGER DEFAULT 0,
+  methode TEXT
 );
 
 CREATE TABLE IF NOT EXISTS topics (
@@ -202,11 +203,14 @@ export function loadSubjectData(data) {
   const existing = get('SELECT version FROM subjects WHERE id = ?', [data.id]);
   if (existing && existing.version >= data.version) return false;
 
+  // Migration: add methode column if upgrading from an older schema
+  try { _db.run('ALTER TABLE subjects ADD COLUMN methode TEXT'); } catch (e) { /* column already exists */ }
+
   // Upsert subject
-  run(`INSERT OR REPLACE INTO subjects (id, name, description, color, color_soft, icon, version, sort_order)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+  run(`INSERT OR REPLACE INTO subjects (id, name, description, color, color_soft, icon, version, sort_order, methode)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     [data.id, data.name, data.description || '', data.color || '', data.colorSoft || '',
-     data.icon || '', data.version || 1, data.sortOrder || 0]);
+     data.icon || '', data.version || 1, data.sortOrder || 0, data.methode || null]);
 
   // Load topics and questions
   let topicIdx = 0;

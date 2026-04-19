@@ -5,7 +5,8 @@
   "color": "#7A4FB5",
   "colorSoft": "#E6DDF2",
   "icon": "🏛️",
-  "version": 2,
+  "version": 3,
+  "methode": "<p><b>Warum so und nicht anders?</b> Bei einer Fremdsprache wirkt reine Paarassoziation (Vokabel ↔ Übersetzung) deutlich schwächer als <b>semi-kontextualisiertes Lernen</b>. Jede Karte zeigt darum einen kurzen lateinischen Beispielsatz aus der Aeneas-Thematik; der Satz dient als <em>retrieval cue</em> und verankert das Wort in einer typischen Umgebung statt im Vakuum.</p><p><b>Richtung:</b> nur <b>Latein → Deutsch</b> (rezeptiver Fokus, wie im Unterricht abgefragt). Die aktive Produktion (DE→LA) wäre ein anderes Lernziel und würde eigene Karten brauchen — bewusst weggelassen.</p><p><b>Distraktoren:</b> handkuratiert und <b>semantisch nah</b> (Tür/Tor, Zorn/Angst, zornig/mutig/traurig). So trainierst du echte Bedeutungsunterscheidung statt Ausschlussverfahren — das ist der Punkt, an dem MC-Karten sonst oft zu leicht werden.</p><p><b>Grammatik-Hinweise</b> (<i>portae f.</i>, <i>cado, cecidi</i>) stehen immer mit am Wort, damit Genus/Genitiv bzw. Stammformen beim Memorieren mitkodiert werden — Latein ohne diese Informationen ist nicht nutzbar.</p><p><b>Tipp zur Nutzung:</b> Lies den Beispielsatz zuerst ganz durch und versuche, das Zielwort aus dem Kontext zu erraten, bevor du die Optionen ansiehst. Dieser Selbstabruf („generative retrieval\") ist evidenzbasiert der wirksamste Modus.</p><div class=\"source\"><b>Fachliche Quellen</b><br>Nakata, T. &amp; Elgort, I. (2021). Effects of spacing on contextual vocabulary learning. <em>Second Language Research.</em><br>Webb, S. (2020). <em>The Routledge Handbook of Vocabulary Studies.</em><br>Castledown VLI (2024). Generation and L2 Vocabulary Learning.<br>MDPI <em>Behavioral Sciences</em> 15.11 (2025). Retrieval Practice and Context Dependence in Digital Flashcards.</div>",
   "topics": [
     {
       "id": "lektion12",

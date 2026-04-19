@@ -818,10 +818,19 @@ export function showTheoryModal() {
   const overlay = document.createElement('div');
   overlay.className = 'modal-overlay';
   overlay.onclick = e => { if (e.target === overlay) overlay.remove(); };
+
+  // Fachspezifische Methoden-Notiz (aus subject.methode), wenn vorhanden
+  const sid = state.currentSubject;
+  const subj = sid ? DB.get('SELECT name, methode FROM subjects WHERE id = ?', [sid]) : null;
+  const fachspezifisch = subj && subj.methode
+    ? `<div class="fachnote"><h4>Fach-Methodik · ${subj.name}</h4>${subj.methode}</div><hr class="fachnote-sep">`
+    : '';
+
   overlay.innerHTML = `
     <div class="modal-box">
       <button class="modal-close" onclick="this.closest('.modal-overlay').remove()">×</button>
-      <h3>Methodik &amp; Wissenschaft</h3>
+      ${fachspezifisch}
+      <h3>Methodik &amp; Wissenschaft <span style="font-weight:400;color:var(--ink-muted);font-size:14px">· allgemein</span></h3>
       <h4>1. Zwei Systeme im Kopf</h4>
       <p>Der Psychologe Daniel Kahneman unterscheidet zwei Denkmodi: <b>System 1</b> arbeitet schnell, automatisch und intuitiv — <b>System 2</b> langsam, bewusst und analytisch. Lernen braucht beides.</p>
       <p><b>Sprint-Modus → System 1:</b> Gewichtete Zufallsauswahl priorisiert Schwächen und <em>confident errors</em>. Ziel: Lücken aufdecken.</p>
