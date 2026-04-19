@@ -3,6 +3,10 @@
     {
       "id": "deutsch",
       "file": "deutsch.json"
+    },
+    {
+      "id": "latein",
+      "file": "latein.json"
     }
   ]
 }
